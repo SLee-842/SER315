@@ -55,7 +55,15 @@
 
 **Class Diagram**
 
+```mermaid
+class diagram code here
+```
+
 **Use-Case Diagram**
 
+```mermaid
+sequenceDiagram code here
+```
+  
 ## Review Section
 N/A
