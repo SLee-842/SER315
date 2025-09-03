@@ -47,9 +47,37 @@
 
 >**Atendees:**
 
-## Design
-
 >**Design Principles:**
+
+## Design Principles  
+
+We plan to apply the following design principles to guide the development of the bike racing registration system.  
+
+*(Note: Not being stated below does not mean we will avoid other common strategies or principles; these are simply the primary ones we are highlighting for Deliverable 1.)*  
+
+---
+
+  #### Single Responsibility Principle (SRP)  
+Each class will have a single, clear purpose.  
+**Example:** The `License` class will only manage license attributes (ID, category, expiration) rather than race registration or payment details.  
+
+---
+
+  #### Open/Closed Principle (OCP)  
+The system should be open for extension but closed for modification.  
+**Example:** The `Race` class should support new race types (road, gravel, time trial, etc...) without requiring changes to its core design, allowing future extensions through subclasses or composition.  
+
+---
+
+  #### Don’t Repeat Yourself (DRY)  
+Shared logic will be centralized to prevent duplication.  
+**Example:** Login and account management will be handled in the base `User` class, avoiding repeated code in `Racer`, `Organizer`, and `Administrator`.  
+
+---
+
+  #### Keep It Simple (KISS)  
+The design will prioritize simplicity and avoid unnecessary complexity.  
+**Example:** Category upgrades will follow a direct rule (*five podium finishes = one category promotion*) rather than adding complicated point systems *(as stated in the requirements documentation).*  
 
 >**Design Constraints:**
 
