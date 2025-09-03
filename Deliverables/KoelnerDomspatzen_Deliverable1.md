@@ -55,31 +55,69 @@ We plan to apply the following design principles to guide the development of the
 
 *(Note: Not being stated below does not mean we will avoid other common strategies or principles; these are simply the primary ones we are highlighting for Deliverable 1.)*  
 
+   ### Single Responsibility Principle (SRP)  
+  Each class will have a single, clear purpose.  
+  **Example:** The `License` class will only manage license attributes (ID, category, expiration) rather than race registration or payment details.  
+
+   ### Open/Closed Principle (OCP)  
+  The system should be open for extension but closed for modification.  
+  **Example:** The `Race` class should support new race types (road, gravel, time trial, etc...) without requiring changes to its core design, allowing future extensions through subclasses or composition.  
+
+   ### Don’t Repeat Yourself (DRY)  
+  Shared logic will be centralized to prevent duplication.  
+  **Example:** Login and account management will be handled in the base `User` class, avoiding repeated code in `Racer`, `Organizer`, and `Administrator`.  
+
+   #### Keep It Simple (KISS)  
+  The design will prioritize simplicity and avoid unnecessary complexity.  
+  **Example:** Category upgrades will follow a direct rule (*five podium finishes = one category promotion*) rather than adding complicated point systems *(as stated in the requirements documentation).*  
+
+## Design Constraints  
+
+We have identified our constraints from two perspectives: **user/problem-side** and **technical/stack-side**.  
+
+### User / Problem-Side Constraints  
+
+- **Licensing Requirement** *(Requirements Document, p.1)*  
+  Racers must purchase a valid license to register for official races.  
+  Licenses are valid for one year and tied to the racer’s current category.  
+
+- **Category System** *(Requirements Document, p.1–2)*  
+  Racers are sorted into categories 5–1 (5 = beginner, 1 = elite).  
+  Racers must only compete in races that match their current category.  
+  Racers are promoted one category after five podium finishes (1st, 2nd, 3rd).  
+
+- **Race Setup Rules** *(Requirements Document, p.2)*  
+  Every race must offer all categories (5–1).  
+  Each race has a date, type, distance, route, registration deadline, and participant cap.  
+  Official races count toward category upgrades; unofficial races do not.  
+
+- **Race History Persistence** *(Requirements Document, p.2)*  
+  The system must keep a permanent record of races, results, and reviews.  
+  Racer history must remain consistent across sessions (no data loss).  
+
 ---
 
-  #### Single Responsibility Principle (SRP)  
-Each class will have a single, clear purpose.  
-**Example:** The `License` class will only manage license attributes (ID, category, expiration) rather than race registration or payment details.  
+### Technical / Stack-Side Constraints  
 
----
+- **Programming Language: Java** *(Project Document, p.3 Deliverable 3/4)*  
+  All implementation will be done in Java using object-oriented design.  
 
-  #### Open/Closed Principle (OCP)  
-The system should be open for extension but closed for modification.  
-**Example:** The `Race` class should support new race types (road, gravel, time trial, etc...) without requiring changes to its core design, allowing future extensions through subclasses or composition.  
 
----
+- **Deliverable Guidelines** *(Project Document, p.3–4)*  
+  Early deliverables require UML diagrams and use case diagrams.  
+  Future deliverables include architecture design, activity diagram, and UI sketches.  
+  The final deliverable requires a functional system but does not require a full graphical user interface.  
 
-  #### Don’t Repeat Yourself (DRY)  
-Shared logic will be centralized to prevent duplication.  
-**Example:** Login and account management will be handled in the base `User` class, avoiding repeated code in `Racer`, `Organizer`, and `Administrator`.  
 
----
+- **Scalability & Extensibility** *(Project Document, learning objectives)*  
+  The system should support design principles like SRP and OCP to allow new race types without redesign.  
+  Each deliverable (1–4) expects maintaining and updating previous work.  
 
-  #### Keep It Simple (KISS)  
-The design will prioritize simplicity and avoid unnecessary complexity.  
-**Example:** Category upgrades will follow a direct rule (*five podium finishes = one category promotion*) rather than adding complicated point systems *(as stated in the requirements documentation).*  
 
->**Design Constraints:**
+- **Data Management** *(Requirements Document, p.2)*  
+  The system must persist race history, racer accounts, licenses, and results.  
+  Persistence ensures that category upgrades and reviews are accurate over time.  
+
 
 >**Class Diagram**
 >
