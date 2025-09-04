@@ -40,15 +40,35 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ## Meeting Overview
 
-### Meeting Summary
+### Summary of Meetings
+1 meeting held via Slack voice call.
 
 ### Dates 
+3 Sep 2025
 
 ### Duration
+49 minutes
 
 ### Atendees
+Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
 
-### Design Principles
+### Meeting Minutes
+We looked at class diagram and revised it, was AI generated (GPT) (Stephen and Brandon contributed a ton with the foundation of the work we revised)
+Brandon will post the video and screencap for the group.
+
+Nathan needs added to the Git.
+
+**Class Diagram Notes and Revisions:**
+Removed Stage, as it seemed redundant upon re-evaluation of requirements. Deleted composition relationship from Race to Stage
+Proposed changes to RaceType to eliminate enumeration (now or future) 
+Proposed changing enums to be abstract classes
+
+**Use Case Diagram Notes and Revisions:**
+Notes: We're requesting clarification on the Race/Stage issue, because the instructions are unclear.
+Possible revisions: Renaming manage stages to manage races to match removal of stage class (pending clarification)
+Change wording of "Evaluate Category Upgrade" to reflect the organizer entering the results into the upgrade policy.
+
+**Git Revision:** Core Classes in the written section need updated to reflect the actual class names in the diagram
 
 ## Design Principles  
 
