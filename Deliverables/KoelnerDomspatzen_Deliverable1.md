@@ -30,7 +30,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 **Contributions:** 
 
 ### Stephen Lee
-**Contributions:** Created Github Repo, Issues, Project. Created deliverable template.
+**Contributions:** Created Github Repo, Issues, Project. Created deliverable template. Generated original Class and Use Case diagrams via ChatGPT.
 
 ### Brandon Navarrete
 **Contributions:** 
