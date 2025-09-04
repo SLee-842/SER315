@@ -27,7 +27,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 **Contributions:**
 
 ### Nathan Jordan
-**Contributions:** 
+**Contributions:** Listened during the group call to understnad the ongoing dsicussion about the class and use case diagrams. Researched the Race vs. Stage requirments afterward and shared clarifications witht the group to help guide our decign decisions
 
 ### Stephen Lee
 **Contributions:** Created Github Repo, Issues, Project. Created deliverable template. Generated original Class and Use Case diagrams via ChatGPT.
