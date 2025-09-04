@@ -36,8 +36,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 **Contributions:** 
 
 ### Tamara Sopoyeva
-**Contributions:** 
-
+**Contributions:** Participatd in team call where we reviewed templated diagram designs, agreed on needed revision, proposed action items and plan forward. Read over template deliverable to see if anything is missing or input is needed. 
 ## Meeting Overview
 
 ### Summary of Meetings
