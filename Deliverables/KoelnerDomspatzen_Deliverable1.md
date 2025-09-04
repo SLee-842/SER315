@@ -27,7 +27,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 **Contributions:**
 
 ### Nathan Jordan
-**Contributions:** Listened during the group call to understnad the ongoing dsicussion about the class and use case diagrams. Researched the Race vs. Stage requirments afterward and shared clarifications witht the group to help guide our decign decisions
+**Contributions:** Listened during the group call to understnad the ongoing dsicussion about the class and use case diagrams. Researched the Race vs. Stage requirments afterward and shared clarifications with the group to help guide our design decisions. Opened a pull request to (1) move the type association from `Race -> RaceType` to `Stage -> RaceType` and (2) fix the upgrade flow direction to **Result -> UpgradePolicy -> Racer**. Posted a summary in Slack for review. Added my Individual Reflection to the deliverable.
+
+**Reflection:** Clarifying the Stage vs. Race type helped me see how a tiny modeling change can remove ambiguity and future rework. Tying type to Stage keeps the design closer to the requirements, and flipping the upgrade flow makes the data dependency explicit (results drive upgrades). Next iteration I’ll participate more during meetings and continue documenting changes so they are visible, reviewed, and easy to trace.
 
 ### Stephen Lee
 **Contributions:** Created Github Repo, Issues, Project. Created deliverable template. Generated original Class and Use Case diagrams via ChatGPT.
