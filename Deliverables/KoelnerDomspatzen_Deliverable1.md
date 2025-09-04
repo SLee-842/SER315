@@ -11,7 +11,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ### Current Progress
 Completed high-level design for the software systems based on the provided requirements. 
 ### Areas We Excelled
-Completed high-level design for the software systems based on the provided requirements. 
+- Completed high-level design for the software systems based on the provided requirements. 
+
+- Communication
 ### Areas of Improvement
 
 ### Problems Faced
