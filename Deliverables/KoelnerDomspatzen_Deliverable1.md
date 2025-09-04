@@ -36,7 +36,10 @@ We will get clarification on some expected functionality and requirements for th
 **Contributions:** Created Github Repo, Issues, Project. Created deliverable template. Generated original Class and Use Case diagrams via ChatGPT.
 
 ### Brandon Navarrete
-**Contributions:** 
+**Contributions:** I contributed by suggesting adjustments to the class diagram, updating and refining diagrams, committing changes to the GitHub repository under the Deliverable 1 folder, and taking responsibility for recording the screencast.
+
+**Reflection:** 
+Working on this deliverable with a team showed me how project criteria can be interpreted in different ways but still lead to valid outcomes. This experience helped me appreciate the value of collaboration and discussion in aligning design decisions.
 
 ### Tamara Sopoyeva
 **Contributions:** Participatd in team call where we reviewed templated diagram designs, agreed on needed revision, proposed action items and plan forward. Read over template deliverable to see if anything is missing or input is needed.
