@@ -52,6 +52,9 @@ Working on this deliverable with a team showed me how project criteria can be in
 ### Tamara Sopoyeva
 **Contributions:** Participatd in team call where we reviewed templated diagram designs, agreed on needed revision, proposed action items and plan forward. Read over template deliverable to see if anything is missing or input is needed.
 
+**Reflection:** The team members did a great job communicating and taking initiative on this deliverable. Everyone was very considerate of each other's opinions and suggestions, which made it a pleasant collaborative environment. 
+I haven't used GitHub in such a capacity before, and I find this to be an awesome opportunity to learn about this platform while working on the project. I think it's quite impressive. 
+
 ## Meeting Overview
 
 ### Summary of Meetings
