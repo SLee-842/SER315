@@ -249,8 +249,8 @@ classDiagram
   RaceType <|-- TimeTrialRace
   RaceType <|-- GravelRace
 
-  Race --> RaceType : type
   Race "1" *-- "0..*" Stage : contains
+  Stage "*" --> "1" RaceType : type
 
   class Stage {
     +stageId: UUID
@@ -294,7 +294,7 @@ classDiagram
     +applyUpgrade(r: Racer): void
   }
 
-  UpgradePolicy ..> Result : counts podiums
+  Result --> UpgradePolicy : evaluate()
   UpgradePolicy ..> Racer : updates category
 
   %% ========= Reviews =========
