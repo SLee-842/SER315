@@ -1,53 +1,54 @@
 # Deliverable 1
-**Team Name:** KoelnerDomspatzen
 
-**Team Members:** Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
+### Team Name
+KoelnerDomspatzen
+
+### Team Members
+Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ## Team Reflection
->**Current Progress:**
 
->**Areas We Excelled:**
+### Current Progress
 
->**Areas of Improvement:**
+### Areas We Excelled
 
->**Problems Faced:**
+### Areas of Improvement
 
->**Changes to Next Iteration:**
+### Problems Faced
 
->**Screencast URL:** [Example Hyperlink (Replace Me)](ExampleURL)
+### Changes to Next Iteration
+
+### Screencast URL
+[Example Hyperlink (Replace Me)](ExampleURL)
 
 ## Individual Reflection
->**Name:** Brynn Ayers
->
->**Contributions:**
 
->**Name:** Nathan Jordan
->
->**Contributions:** 
+### Brynn Ayers
+**Contributions:**
 
->**Name:** Stephen Lee
->
->**Contributions:** Created Github Repo, Issues, Project. Created deliverable template.
+### Nathan Jordan
+**Contributions:** 
 
->**Name:** Brandon Navarrete
->
->**Contributions:** 
+### Stephen Lee
+**Contributions:** Created Github Repo, Issues, Project. Created deliverable template.
 
->**Name:** Tamara Sopoyeva
->
->**Contributions:** 
+### Brandon Navarrete
+**Contributions:** 
+
+### Tamara Sopoyeva
+**Contributions:** 
 
 ## Meeting Overview
 
->**Meeting Summary:**
+### Meeting Summary
 
->**Dates:** 
+### Dates 
 
->**Duration:**
+### Duration
 
->**Atendees:**
+### Atendees
 
->**Design Principles:**
+### Design Principles
 
 ## Design Principles  
 
@@ -67,7 +68,7 @@ We plan to apply the following design principles to guide the development of the
   Shared logic will be centralized to prevent duplication.  
   **Example:** Login and account management will be handled in the base `User` class, avoiding repeated code in `Racer`, `Organizer`, and `Administrator`.  
 
-   #### Keep It Simple (KISS)  
+   ### Keep It Simple (KISS)  
   The design will prioritize simplicity and avoid unnecessary complexity.  
   **Example:** Category upgrades will follow a direct rule (*five podium finishes = one category promotion*) rather than adding complicated point systems *(as stated in the requirements documentation).*  
 
