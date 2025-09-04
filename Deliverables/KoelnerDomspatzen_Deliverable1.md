@@ -26,7 +26,7 @@ Some requirements in the assignments were not clearly defined, such as "stages".
 We will get clarification on some expected functionality and requirements for the system and update our design if needed.
 
 ### Screencast URL
-[Example Hyperlink (Replace Me)](ExampleURL)
+[Youtube Link to KoelnerDomspatzen's Deliverable One](https://www.youtube.com/watch?v=HjeYGVgeQZY&feature=youtu.be)
 
 ## Individual Reflection
 
