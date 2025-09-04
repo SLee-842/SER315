@@ -31,7 +31,9 @@ We will get clarification on some expected functionality and requirements for th
 ## Individual Reflection
 
 ### Brynn Ayers
-**Contributions:**
+**Contributions:** Participated in a team call for a design review, functioning as the note-taker for the meeting. Offered input into the few revisions suggested by the team, what design tools to use, and helped clarify design elements by re-evaluation of the requirements document. Created both slack groups for team collaboration and communication.
+
+**Reflection:** I’m happy with my communication and with the efforts I’ve made in the meeting, but I would like to be more involved in the design and development work in future cycles to make sure work is fairly allocated for everyone’s benefit. I’ve definitely had to work to familiarize myself with the tools and platforms and feel I will be more comfortable moving forward with them. Working through the design diagrams with the team was very valuable practice (and provided insight into why having multiple perspectives on one item can be invaluable), and I greatly appreciate the team I’ve been placed in. I look forward to delivering a quality product and learning a lot with this group!
 
 ### Nathan Jordan
 **Contributions:** Listened during the group call to understnad the ongoing dsicussion about the class and use case diagrams. Researched the Race vs. Stage requirments afterward and shared clarifications with the group to help guide our design decisions. Opened a pull request to (1) move the type association from `Race -> RaceType` to `Stage -> RaceType` and (2) fix the upgrade flow direction to **Result -> UpgradePolicy -> Racer**. Posted a summary in Slack for review. Added my Individual Reflection to the deliverable.
