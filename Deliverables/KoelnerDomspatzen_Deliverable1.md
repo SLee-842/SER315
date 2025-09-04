@@ -9,15 +9,16 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
-
+Completed high-level design for the software systems based on the provided requirements. 
 ### Areas We Excelled
-
+Completed high-level design for the software systems based on the provided requirements. 
 ### Areas of Improvement
 
 ### Problems Faced
-
+Getting used to GitHub and collaboration systems such as Huddle in Slack. 
+Some requirements in the assignments were not clearly defined, such as "stages".
 ### Changes to Next Iteration
-
+We will get clarification on some expected functionality and requirements for the system and update our design if needed.
 ### Screencast URL
 [Example Hyperlink (Replace Me)](ExampleURL)
 
