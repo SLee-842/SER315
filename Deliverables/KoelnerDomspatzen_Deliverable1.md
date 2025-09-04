@@ -9,18 +9,22 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
-Completed high-level design for the software systems based on the provided requirements. 
+We have completed the high-level design for the bike racing registration system based on the provided requirements. This includes identifying the main classes, use cases, and design principles/constraints that will guide later iterations.
+
 ### Areas We Excelled
-- Completed high-level design for the software systems based on the provided requirements. 
+- We collaborated effectively to translate the requirements into a clear initial design. Our team successfully produced both the high-level class diagram and use case diagram (Aligned with principles such as SRP, OCP, KISS, and DRY)
 
 - Communication
 ### Areas of Improvement
+- We can improve by streamlining our collaboration tools and making sure everyone is comfortable using GitHub for version control. We also need to ensure that all group members stay aligned on design decisions as changes are made.
 
 ### Problems Faced
-Getting used to GitHub and collaboration systems such as Huddle in Slack. 
+- Getting used to GitHub and collaboration systems such as Huddle in Slack. 
 Some requirements in the assignments were not clearly defined, such as "stages".
+
 ### Changes to Next Iteration
 We will get clarification on some expected functionality and requirements for the system and update our design if needed.
+
 ### Screencast URL
 [Example Hyperlink (Replace Me)](ExampleURL)
 
