@@ -1,0 +1,420 @@
+# Deliverable 2
+
+### Team Name
+KoelnerDomspatzen
+
+### Team Members
+Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
+
+## Team Reflection
+
+### Current Progress
+- 
+
+### Areas We Excelled
+- 
+
+### Areas of Improvement
+- 
+
+### Problems Faced
+- 
+
+### Changes to Next Iteration
+- 
+
+### Screencast URL
+[Youtube Link to KoelnerDomspatzen's Deliverable Two (Update Me)](UpdateMe)
+
+## Individual Reflection
+
+>### Brynn Ayers
+>**Contributions:** 
+>
+>**Reflection:** 
+
+>### Nathan Jordan
+>**Contributions:** 
+>
+>**Reflection:** 
+
+>### Stephen Lee
+>**Contributions:** 
+>
+>**Reflection:**
+
+>### Brandon Navarrete
+>**Contributions:** 
+>
+>**Reflection:** 
+
+>### Tamara Sopoyeva
+>**Contributions:** 
+>
+>**Reflection:** 
+
+## Meeting Overview
+
+### Summary of Meetings
+
+
+### Dates 
+
+
+### Duration
+
+
+### Atendees
+
+
+### Meeting Minutes
+
+## Update to Deliverable 1
+
+### Design Principles  
+
+We plan to apply the following design principles to guide the development of the bike racing registration system.  
+
+*(Note: Not being stated below does not mean we will avoid other common strategies or principles; these are simply the primary ones we are highlighting for Deliverable 1.)*  
+
+   #### Single Responsibility Principle (SRP)  
+  Each class will have a single, clear purpose.  
+  **Example:** The `License` class will only manage license attributes (ID, category, expiration) rather than race registration or payment details.  
+
+   #### Open/Closed Principle (OCP)  
+  The system should be open for extension but closed for modification.  
+  **Example:** The `Race` class should support new race types (road, gravel, time trial, etc...) without requiring changes to its core design, allowing future extensions through subclasses or composition.  
+
+   #### Don’t Repeat Yourself (DRY)  
+  Shared logic will be centralized to prevent duplication.  
+  **Example:** Login and account management will be handled in the base `User` class, avoiding repeated code in `Racer`, `Organizer`, and `Administrator`.  
+
+   #### Keep It Simple (KISS)  
+  The design will prioritize simplicity and avoid unnecessary complexity.  
+  **Example:** Category upgrades will follow a direct rule (*five podium finishes = one category promotion*) rather than adding complicated point systems *(as stated in the requirements documentation).*  
+
+### Design Constraints  
+
+We have identified our constraints from two perspectives: **user/problem-side** and **technical/stack-side**.  
+
+#### User / Problem-Side Constraints  
+
+- **Licensing Requirement** *(Requirements Document, p.1)*  
+  Racers must purchase a valid license to register for official races.  
+  Licenses are valid for one year and tied to the racer’s current category.  
+
+- **Category System** *(Requirements Document, p.1–2)*  
+  Racers are sorted into categories 5–1 (5 = beginner, 1 = elite).  
+  Racers must only compete in races that match their current category.  
+  Racers are promoted one category after five podium finishes (1st, 2nd, 3rd).  
+
+- **Race Setup Rules** *(Requirements Document, p.2)*  
+  Every race must offer all categories (5–1).  
+  Each race has a date, type, distance, route, registration deadline, and participant cap.  
+  Official races count toward category upgrades; unofficial races do not.  
+
+- **Race History Persistence** *(Requirements Document, p.2)*  
+  The system must keep a permanent record of races, results, and reviews.  
+  Racer history must remain consistent across sessions (no data loss).  
+
+---
+
+#### Technical / Stack-Side Constraints  
+
+- **Programming Language: Java** *(Project Document, p.3 Deliverable 3/4)*  
+  All implementation will be done in Java using object-oriented design.  
+
+
+- **Deliverable Guidelines** *(Project Document, p.3–4)*  
+  Early deliverables require UML diagrams and use case diagrams.  
+  Future deliverables include architecture design, activity diagram, and UI sketches.  
+  The final deliverable requires a functional system but does not require a full graphical user interface.  
+
+
+- **Scalability & Extensibility** *(Project Document, learning objectives)*  
+  The system should support design principles like SRP and OCP to allow new race types without redesign.  
+  Each deliverable (1–4) expects maintaining and updating previous work.  
+
+
+- **Data Management** *(Requirements Document, p.2)*  
+  The system must persist race history, racer accounts, licenses, and results.  
+  Persistence ensures that category upgrades and reviews are accurate over time.  
+
+### Class Diagram
+#### Actors  
+
+(From Requirements Document)  
+
+- **Racer** – signs up, purchases license, registers for races, leaves reviews.  
+- **Organizer** – creates races, manages stages, sets limits, enters results.  
+- **Administrator** – manages accounts, licenses, and overall system settings.  
+
+---
+
+#### Core Classes  
+(Domain-focused, directly from requirements)  
+
+- **User** (abstract base class for Racer, Organizer, Administrator)  
+- **Racer**  
+- **Organizer**  
+- **Administrator**  
+- **Race**  
+- **License**  
+- **Registration** (represents a Racer registering for a Race)  
+- **Result** (captures race outcomes and podium information)  
+- **Review** (Racer feedback about a Race)  
+
+---
+
+#### Supporting System Classes  
+(Implied, not explicitly in requirements but needed for real-world system design)  
+
+- **AccountManager** (handles authentication and account lifecycle)  
+- **PaymentProcessor** (handles credit card transactions for licenses)  
+- **NotificationService** (notifies Racers of category upgrades or race information)  
+- **DataRepository** (central persistence gateway for races, results, and users)  
+- **UIController** (manages interaction between system logic and user interface)  
+
+
+```mermaid
+classDiagram
+  direction TB
+
+  %% ========= Core Users =========
+  class User {
+    <<abstract>>
+    +id: UUID
+    +name: String
+    +email: String
+  }
+  class Racer {
+    +currentCat: Category
+    +hasValidLicense(on: Date): bool
+  }
+  class Organizer {
+  }
+  class Administrator {
+  }
+
+  User <|-- Racer
+  User <|-- Organizer
+  User <|-- Administrator
+
+  %% ========= Licensing =========
+  class License {
+    +licenseId: String
+    +validFrom: Date
+    +validTo: Date
+    +categoryAtIssue: Category
+    +isValid(on: Date): bool
+  }
+
+  class Category {
+    <<enumeration>>
+    CAT5
+    CAT4
+    CAT3
+    CAT2
+    CAT1
+  }
+
+  Racer "1" o-- "0..1" License : holds
+  Racer --> Category : current
+
+  %% ========= Races & Stages =========
+  class Race {
+    +raceId: UUID
+    +name: String
+    +date: Date
+    +miles: float
+    +route: String
+    +participantLimit: int
+    +registrationDeadline: Date
+    +official: bool
+  }
+
+  class RaceType {
+    <<abstract>>
+  }
+  class RoadRace {
+  }
+  class CriteriumRace {
+  }
+  class TimeTrialRace {
+  }
+  class GravelRace {
+  }
+
+  RaceType <|-- RoadRace
+  RaceType <|-- CriteriumRace
+  RaceType <|-- TimeTrialRace
+  RaceType <|-- GravelRace
+
+  Race --> RaceType : type
+  Race "1" *-- "0..*" Stage : contains
+
+  class Stage {
+    +stageId: UUID
+    +name: String
+    +distanceMiles: float
+    +sequence: int
+  }
+
+  %% ========= Registration =========
+  class Registration {
+    +registrationId: UUID
+    +createdAt: DateTime
+    +status: RegStatus
+  }
+
+  class RegStatus {
+    <<enumeration>>
+    PENDING
+    CONFIRMED
+    CANCELLED
+  }
+
+  Racer "1" -- "0..*" Registration : makes
+  Race  "1" -- "0..*" Registration : receives
+
+  %% ========= Results =========
+  class Result {
+    +resultId: UUID
+    +position: int   %% 1=gold, 2=silver, 3=bronze
+    +timeSec: int
+    +podium(): bool
+  }
+
+  Stage "1" -- "0..*" Result : has
+  Racer "1" -- "0..*" Result : earns
+
+  %% ========= Upgrade Policy =========
+  class UpgradePolicy {
+    <<service>>
+    +shouldUpgrade(r: Racer): bool
+    +applyUpgrade(r: Racer): void
+  }
+
+  UpgradePolicy ..> Result : counts podiums
+  UpgradePolicy ..> Racer : updates category
+
+  %% ========= Reviews =========
+  class Review {
+    +reviewId: UUID
+    +rating: int  %% 1..5
+    +comment: String
+    +createdAt: DateTime
+  }
+
+  Racer "1" -- "0..*" Review : writes
+  Race  "1" -- "0..*" Review : receives
+
+  %% ========= Notifications =========
+  class Notification {
+    +notificationId: UUID
+    +message: String
+    +sentAt: DateTime
+  }
+
+  Notification ..> Racer : "upgrade notice"
+
+```
+
+>**NOTE:** Original class diagram was generated by ChatGPT but edited to better suit our design principles. See Appendix reference 1 for the AI promt.
+
+### Use Case Diagram
+
+```mermaid
+flowchart TB
+  %% ===== External Actors =====
+  Racer([Racer])
+  Organizer([Organizer])
+  Admin([Administrator])
+
+  %% ===== System Boundary =====
+  subgraph BRS[ Bike Racing Registration System ]
+    direction TB
+
+    %% Racer use cases
+    subgraph RUC[Racer Use Cases]
+      UC_SignUp([Sign up / Provide name & card])
+      UC_BuyLicense([Purchase annual license])
+      UC_RegisterOfficial([Register for official race])
+      UC_RegisterUnofficial([Register for unofficial race])
+      UC_ViewResults([View race history & results])
+      UC_ReviewRace([Review race])
+    end
+
+    %% Organizer use cases
+    subgraph OUC[Organizer Use Cases]
+      UC_CreateRace([Create race])
+      UC_ManageStages([Manage stages])
+      UC_SetLimits([Set registration limits & last day])
+      UC_PublishRace([Publish race])
+      UC_EnterResults([Enter race results])
+    end
+
+    %% Admin use cases
+    subgraph AUC[Admin Use Cases]
+      UC_ManageUsers([Manage user accounts])
+      UC_ManageLicenses([Manage licenses])
+      UC_SystemSettings([Manage system settings])
+    end
+
+    %% Internal service: Upgrade Policy
+    subgraph UPS[Upgrade Policy Service]
+      UC_EvaluateUpgrade([Evaluate category upgrade])
+      UC_NotifyUpgrade([Notify racer of category upgrade])
+    end
+
+    %% System/internal use case
+    UC_VerifyLicense([Verify valid license & category])
+  end
+
+  %% ===== Associations =====
+  Racer --- UC_SignUp
+  Racer --- UC_BuyLicense
+  Racer --- UC_RegisterOfficial
+  Racer --- UC_RegisterUnofficial
+  Racer --- UC_ViewResults
+  Racer --- UC_ReviewRace
+
+  Organizer --- UC_CreateRace
+  Organizer --- UC_ManageStages
+  Organizer --- UC_SetLimits
+  Organizer --- UC_PublishRace
+  Organizer --- UC_EnterResults
+
+  Admin --- UC_ManageUsers
+  Admin --- UC_ManageLicenses
+  Admin --- UC_SystemSettings
+
+  %% ===== Include / Extend flows =====
+  UC_RegisterOfficial -. "<<include>><br/>Verify license & category" .-> UC_VerifyLicense
+  UC_CreateRace -. "<<include>>" .-> UC_ManageStages
+  UC_CreateRace -. "<<include>>" .-> UC_SetLimits
+  UC_CreateRace -. "<<extend>><br/>Publish when ready" .-> UC_PublishRace
+
+  %% Organizer enters results, Upgrade Policy takes over
+  UC_EnterResults -. "<<include>><br/>Provide podium data" .-> UC_EvaluateUpgrade
+  UC_EvaluateUpgrade -. "<<include>><br/>Notify racer" .-> UC_NotifyUpgrade
+
+  UC_RegisterUnofficial -. "<<extend>><br/>May skip license" .-> UC_VerifyLicense
+```
+>**NOTE:** Original use case diagram was generated by ChatGPT but edited to better suit our design principles. See Appendix reference 2 for the AI promt.
+
+## Architectural Design
+
+## Activity Diagram
+
+## UI Sketch
+
+## Review Section
+>**Feedback:** 
+
+>**Changes Made:** N/A
+
+## Appendix
+
+1. ![ChatGPT Prompt for base class diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/AI%20Propmt_ChatGPT_Class%20Diagram.png)
+2. ![ChatGPT Prompt for base use case diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/AI%20Propmt_ChatGPT_Use%20Case%20Diagram.png)
