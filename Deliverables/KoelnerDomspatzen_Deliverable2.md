@@ -39,7 +39,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:** 
 
 >### Stephen Lee
->**Contributions:** 
+>**Contributions:** Created Deliverable 2 template, updated Review section to include Instructor and Peer feedback, reorganized Deliverable 1 section to be consistant with the Project document
 >
 >**Reflection:**
 
