@@ -410,9 +410,27 @@ flowchart TB
 ## UI Sketch
 
 ## Review Section
->**Feedback:** 
 
->**Changes Made:** N/A
+**Instructor Feedback** 
+- The instructor would like to be updated on our progress streamlining our collaboration tools (i.e. GitHub)
+- Including contributions and reflections in the individual feedback section was a positive choice
+- GitHub while primarily used for coding, was a good choice for team collaboration
+- Good choice in design principles
+- The Design Constraints section should be more focused on security, reliability etc.
+- Our document was not in the order specified by the Project document
+- Our Class diagram is hard to read, recommends cleaning it up and avoiding crossing lines
+- Our Class diagram included a class without any relation
+- Notes declairing AI usage was good
+- Our Use Case diagram is overly detailed for a high level diagram, recommends simplifying
+- Would like more details on the changes made to the AI generated diagrams
+
+**Peer Feedback** 
+- Expanding upon OCP and DRY principles would be benificial, specifically adding examples of how they could be applied
+- Make relationships between supporting classes more explicit
+- Diagram images are too small and hard to read
+- Strong foundation
+
+**Changes Made**
 
 ## Appendix
 
