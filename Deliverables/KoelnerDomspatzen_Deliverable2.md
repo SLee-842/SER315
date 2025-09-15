@@ -35,9 +35,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:** 
 
 >### Nathan Jordan
->**Contributions:** 
+>**Contributions:** I reviewed the draft deliverable for consistency with project requirements and met with the group to discuss reverting changes that did not align with the assignemnt.
 >
->**Reflection:** 
+>**Reflection:** This assignment showed me the importance of group review and communication to keep our work aligned. For the next deliverable, I plan to be more involved in drafting content as well as reviewing.
 
 >### Stephen Lee
 >**Contributions:** Created Deliverable 2 template, updated Review section to include Instructor and Peer feedback, reorganized Deliverable 1 section to be consistant with the Project document, simplified the Use Case diagram, created initial Activity diagram,
