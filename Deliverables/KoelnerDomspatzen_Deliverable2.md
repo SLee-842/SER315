@@ -51,9 +51,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:** Overall, the project is progressing well without major concerns. Team members have been very detail-oriented, identifying even small issues, which has been valuable for improving the >quality of our work.  
 
 >### Tamara Sopoyeva
->**Contributions:** Reviwed updates and new items (artichectual design, activity diagram, UI sketch). Commumicated with the teammates and provided feedback on chosen design and execution of it. Ensured the deliverable meets expectation per the instructions in assigment. 
+>**Contributions:** Reviewed updates of new items (architectural design, activity diagram, UI sketch). Communicated with teammates and provided feedback on the chosen design and its execution. Ensured the delivery meets the expectations as outlined in the instructions in the assignment. Prepared final report for the upload.
 >
->**Reflection:** The team interaction is great, everyone communicates repsesctuflly but focuses on procuing results. Team members are good at communicating progress and challenges and listening and disussing everyone input. The project is progressing good and the team is improving on communicating and time management. 
+>**Reflection:** The team interaction is great; everyone communicates respectfully but focuses on producing results. Team members are good at communicating progress and challenges, listening, and considering everyone's input. The project is progressing well, and the team is improving in communicating and time management. 
 
 ## Meeting Overview
 
