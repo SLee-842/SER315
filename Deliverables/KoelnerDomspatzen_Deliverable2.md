@@ -363,7 +363,7 @@ We have identified our constraints from two perspectives: **user/problem-side** 
   Persistence ensures that category upgrades and reviews are accurate over time.  
 
 ## Architectural Design
-| ![Architecture Diagram](architecture-design-breakdown.png) |
+![Architecture Diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/architecture-breakdown.png)
 |:--:|
 | **Figure 1.** Layered Architecture for Bike Racing Registration System |
 
