@@ -9,19 +9,20 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
-- 
+- Deliverable 2 is complete and ready to transition to next phase.
 
 ### Areas We Excelled
-- 
+- Team Responsiveness
 
 ### Areas of Improvement
-- 
+- We need to improve efficiency in coordinating diagramming tools so diagrams are consistent in style. (minimal rework was suggested and completed)
+- Some members are still gaining confidence with GitHub workflows, so commits and versioning could be smoother.  
 
 ### Problems Faced
-- 
+- Not enough time was established for this second round of cordination 
 
 ### Changes to Next Iteration
-- 
+- Standardize diagramming conventions so future deliverables (especially sequence diagrams) have a consistent look.
 
 ### Screencast URL
 [Youtube Link to KoelnerDomspatzen's Deliverable Two (Update Me)](UpdateMe)
