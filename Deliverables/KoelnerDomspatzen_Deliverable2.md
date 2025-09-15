@@ -261,7 +261,7 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ![Racer View](https://github.com/SLee-842/SER315/blob/main/resources/images/RacerView.png)
 |:--:|
-| **Figure 4.** Racer View – Racer receiving a notification of category upgrade.  |
+| **Figure 6.** Racer View – Racer receiving a notification of category upgrade.  |
 
 ---
 ## Review Section
@@ -286,7 +286,7 @@ The Racer interacts with the system primarily by registering for races and recei
 - Strong foundation
   
 **Changes Made**
-- Reorganized Deliverable 1 sectioon to better allign with the Project Document
+- Reorganized Deliverable 1 section to better allign with the Project Document
 - Simplified the Use Case diagram
 - Edited Class Diagram layout f/readability and changed from embedded code to png
 - Added missing relationship to RegStatus class
