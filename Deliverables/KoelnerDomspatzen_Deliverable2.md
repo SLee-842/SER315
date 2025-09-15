@@ -276,6 +276,7 @@ We have identified our constraints from two perspectives: **user/problem-side** 
   Persistence ensures that category upgrades and reviews are accurate over time.  
 
 ## Architectural Design
+The Architectural design chosen is 'Layered'. We feel that this will be suffice for the size and depth of this project.
 ![Architecture Diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/architecture-breakdown.png)
 |:--:|
 | **Figure 3.** Layered Architecture for Bike Racing Registration System |
