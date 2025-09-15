@@ -1,0 +1,116 @@
+---
+config:
+  layout: elk
+---
+classDiagram
+  direction RL
+  class User {
+    <<abstract>>
+    +id: UUID
+    +name: String
+    +email: String
+  }
+  class Racer {
+    +currentCat: Category
+    +hasValidLicense(on: Date): bool
+  }
+  class Organizer {
+  }
+  class Administrator {
+  }
+  User <|-- Racer
+  User <|-- Organizer
+  User <|-- Administrator
+  class License {
+    +licenseId: String
+    +validFrom: Date
+    +validTo: Date
+    +categoryAtIssue: Category
+    +isValid(on: Date): bool
+  }
+  class Category {
+    <<enumeration>>
+    CAT5
+    CAT4
+    CAT3
+    CAT2
+    CAT1
+  }
+  Racer "1" o-- "0..1" License : holds
+  Racer --> Category : current
+  class Race {
+    +raceId: UUID
+    +name: String
+    +date: Date
+    +miles: float
+    +route: String
+    +participantLimit: int
+    +registrationDeadline: Date
+    +official: bool
+  }
+  class RaceType {
+    <<abstract>>
+  }
+  class RoadRace {
+  }
+  class CriteriumRace {
+  }
+  class TimeTrialRace {
+  }
+  class GravelRace {
+  }
+  RaceType <|-- RoadRace
+  RaceType <|-- CriteriumRace
+  RaceType <|-- TimeTrialRace
+  RaceType <|-- GravelRace
+  Race --> RaceType : type
+  Race "1" *-- "0..*" Stage : contains
+  class Stage {
+    +stageId: UUID
+    +name: String
+    +distanceMiles: float
+    +sequence: int
+  }
+  class Registration {
+    +registrationId: UUID
+    +createdAt: DateTime
+    +status: RegStatus
+  }
+  class RegStatus {
+    <<enumeration>>
+    PENDING
+    CONFIRMED
+    CANCELLED
+  }
+  Registration --> RegStatus : status
+  Racer "1" -- "0..*" Registration : makes
+  Race  "1" -- "0..*" Registration : receives
+  class Result {
+    +resultId: UUID
+    +position: int   %% 1=gold, 2=silver, 3=bronze
+    +timeSec: int
+    +podium(): bool
+  }
+  Stage "1" -- "0..*" Result : has
+  Racer "1" -- "0..*" Result : earns
+  class UpgradePolicy {
+    <<service>>
+    +shouldUpgrade(r: Racer): bool
+    +applyUpgrade(r: Racer): void
+  }
+  UpgradePolicy ..> Result : counts podiums
+  UpgradePolicy ..> Racer : updates category
+  class Review {
+    +reviewId: UUID
+    +rating: int  %% 1..5
+    +comment: String
+    +createdAt: DateTime
+  }
+  Racer "1" -- "0..*" Review : writes
+  Race  "1" -- "0..*" Review : receives
+  class Notification {
+    +notificationId: UUID
+    +message: String
+    +sentAt: DateTime
+  }
+  Notification ..> Racer : "upgrade notice"
