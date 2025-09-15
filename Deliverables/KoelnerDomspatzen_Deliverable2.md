@@ -45,10 +45,10 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >
 >**Reflection:**
 
->### Brandon Navarrete
->**Contributions:**  Created the Archtecture Diagram, Started the Activity Diagram, enhancements and edits made to Github.
+>### Brandon Navarrete  
+>**Contributions:** Created the Architecture Diagram, created gui ( inspired by Stephen) initiated the Activity Diagram, and made enhancements and edits in GitHub.   
 >
->**Reflection:** Overall, the project is coming along without any major concerns. Ever
+>**Reflection:** Overall, the project is progressing well without major concerns. Team members have been very detail-oriented, identifying even small issues, which has been valuable for improving the >quality of our work.  
 
 >### Tamara Sopoyeva
 >**Contributions:** 
