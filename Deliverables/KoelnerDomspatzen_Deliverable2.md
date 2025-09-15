@@ -413,26 +413,9 @@ We have identified our constraints from two perspectives: **user/problem-side** 
 
 ## Activity Diagram
 
-``` mermaid
----
-config:
-theme: redux
----
-flowchart TD
-	start@{ shape: sm-circ, label: "Small start" }
-	start --> recordRaceResults(Record race results)
-	recordRaceResults --> checkIfOfficial@{ shape: diamond, label: "is the race official or unofficial" }
-	checkIfOfficial --Official--> checkCat5@{ shape: diamond, label: "Check if racer is already Cat 5" }
-	checkIfOfficial --Unofficial--> stopDecision@{ shape: diamond, label: " "}
-  checkCat5 --Cat 5--> stopDecision
-  checkCat5 --Not Cat 5--> reviewRaceResults(review race results)
-  reviewRaceResults --> check5Podiums@{ shape: diamond, label: "Check if racer has 5 podiums at current Cat"}
-  check5Podiums --less than 5-->stopDecision
-  check5Podiums --5 podiums-->upgradeCat(upgrade racer's category)
-  upgradeCat --> notifyRacer(notify racer)
-  notifyRacer --> stopDecision
-	stopDecision-->stop@{ shape: dbl-circ, label: " " }
-```
+![Activity Diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/ActivityDiagram.png)
+|:--:|
+| **Figure 2.** Activity Diagram for `Enter Race Results`|
 
 ## UI Sketch
 
