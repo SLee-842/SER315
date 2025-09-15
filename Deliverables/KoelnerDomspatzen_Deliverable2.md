@@ -64,14 +64,20 @@ We addressed several concerns brought up by members of the team, primarily that 
 
 ### Dates 
 
+>**Team Meeting Dates:** 9/15 @ 3:25PM
+
 
 ### Duration
 
+>**Team Meeting Duration:** 28 minutes.
 
-### Atendees
+
+### Attendees
+>**Team Meeting Attendees:** Tamara S, Nathan J, Brynn A, Brandon N
 
 
 ### Meeting Minutes
+>**Detailed Minutes are available in the Gen channel.**
 
 ## Update to Deliverable 1
 
