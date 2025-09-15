@@ -363,6 +363,53 @@ We have identified our constraints from two perspectives: **user/problem-side** 
   Persistence ensures that category upgrades and reviews are accurate over time.  
 
 ## Architectural Design
+| ![Architecture Diagram](architecture-design-breakdown.png) |
+|:--:|
+| **Figure 1.** Layered Architecture for Bike Racing Registration System |
+
+
+## Presentation Layer (<span style="color:red">CLOSED</span>)
+**Nodes:** Racer, Organizer, Administrator (actors) and UIController  
+
+**Responsibility:** Provides the user interface for all actors to interact with the system. Captures input such as race registration, entering results, and managing licenses, then forwards requests to the Business Layer.  
+
+**Closed because:** It only communicates with the Business Layer. Preventing direct access to Services or Persistence ensures all interactions follow defined workflows.  
+
+---
+
+## Business Layer (<span style="color:red">CLOSED</span>)
+**Nodes:** Race, Registration, License, Result, Review, UpgradePolicy  
+
+**Responsibility:** Encapsulates the core domain logic including race management, registration validation, license checks, result recording, category upgrades, and reviews. Ensures rules such as racers must hold a valid license or five podium finishes equal a promotion.  
+
+**Closed because:** All business rules must be executed here before calling Services or Persistence. This enforces Single Responsibility and avoids bypassing business validation.  
+
+---
+
+## Services Layer (<span style="color:green">OPEN</span>)
+**Nodes:** AccountManager, NotificationService, PaymentProcessor  
+
+**Responsibility:** Provides reusable shared services across the system. Handles authentication, notifications such as upgrade emails, and payments for licenses.  
+
+**Open because:** Multiple layers may need to use services directly. For example, the Business Layer calls PaymentProcessor for registrations, while Presentation could directly access NotificationService in future extensions. Marking this layer open supports extensibility without requiring deep changes to other layers which aligns with OCP.  
+
+---
+
+## Persistence Layer (<span style="color:red">CLOSED</span>)
+**Node:** DataRepository  
+
+**Responsibility:** Manages all data persistence operations by translating business objects into queries and ensuring reliable storage and retrieval. Provides a single entry point to the database, keeping storage logic consistent.  
+
+**Closed because:** Only the Business Layer and Services Layer can call into it. Presentation cannot access the database directly. This avoids data corruption and enforces encapsulation.  
+
+---
+
+## Database Layer (<span style="color:red">CLOSED</span>)
+**Node:** Database (Users, Races, Licenses, Results, Reviews)  
+
+**Responsibility:** Physical storage of all system entities. Ensures long-term persistence of race history, licenses, results, and reviews.  
+
+**Closed because:** It is strictly internal and only the Persistence Layer can access it. Direct access from upper layers would break data integrity and bypass validation.  
 
 ## Activity Diagram
 
