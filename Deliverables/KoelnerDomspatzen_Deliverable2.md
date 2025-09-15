@@ -419,6 +419,24 @@ We have identified our constraints from two perspectives: **user/problem-side** 
 
 ## UI Sketch
 
+To complement the Activity Diagram, we created simple UI sketches showing how the workflow is experienced by different roles in the system. These sketches illustrate the **Organizer (Owner) view** for recording results and the **Racer view** for receiving notifications after category evaluation.  
+
+### Owner View
+The Owner (Organizer) is responsible for recording race results. Figure 3 shows the **Owner View**, where the organizer selects a race, enters a racer’s ID, and records their podium position. Once submitted, the system stores the results and determines whether the race is official. If it is, the upgrade policy service is triggered automatically.  
+
+![Owner View](https://github.com/SLee-842/SER315/blob/main/resources/images/OwnerView.png)
+|:--:|
+| **Figure 3.** Owner View - Organizer inputting race information and results.|
+---
+
+### Racer View
+The Racer interacts with the system primarily by registering for races and receiving updates. Figure 4 shows the **Racer View**, where the racer receives a notification that their category has been upgraded after achieving five podium finishes in official races. This notification ensures racers are aware of their current category standing and any changes made by the upgrade policy.  
+
+![Racer View](https://github.com/SLee-842/SER315/blob/main/resources/images/RacerView.png)
+|:--:|
+| **Figure 4.** Racer View – Racer receiving a notification of category upgrade.  |
+
+---
 ## Review Section
 
 **Instructor Feedback** 
