@@ -25,7 +25,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 - Standardize diagramming conventions so future deliverables (especially sequence diagrams) have a consistent look.
 
 ### Screencast URL
-[Youtube Link to KoelnerDomspatzen's Deliverable Two (Update Me)](UpdateMe)
+[Youtube Link to KoelnerDomspatzen's Deliverable Two](https://youtu.be/F9zO8WZWo2w)
 
 ## Individual Reflection
 
