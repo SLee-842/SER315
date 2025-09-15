@@ -46,9 +46,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:**
 
 >### Brandon Navarrete
->**Contributions:** 
+>**Contributions:**  Created the Archtecture Diagram, Started the Activity Diagram, enhancements and edits made to Github.
 >
->**Reflection:** 
+>**Reflection:** Overall, the project is coming along without any major concerns. Ever
 
 >### Tamara Sopoyeva
 >**Contributions:** 
