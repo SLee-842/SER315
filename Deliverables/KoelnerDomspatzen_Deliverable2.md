@@ -30,9 +30,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Individual Reflection
 
 >### Brynn Ayers
->**Contributions:** 
+>**Contributions:** Helped schedule today’s meeting as well as the meeting at 4pm CST 9/22. Took notes for the meeting and added the meeting details to the document. Helped perform a team review of the deliverable.
 >
->**Reflection:** 
+>**Reflection:** While the project is going well, I am not totally satisfied with my performance this week, as I let the due date sneak up on me. The communication between our team was great and helped make up for the deficit in our planning, but this is my primary focus for improvement moving into the next deliverable. I’m very satisfied with the results of our work and with the team. I look forward to a clear delegation of responsibilities for the upcoming deliverable to feel like I’m contributing more to the team.
 
 >### Nathan Jordan
 >**Contributions:** I reviewed the draft deliverable for consistency with project requirements and met with the group to discuss reverting changes that did not align with the assignemnt.
