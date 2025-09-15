@@ -57,8 +57,10 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ## Meeting Overview
 
-### Summary of Meetings
+### Summary of Meetings:
 
+>**Meeting 9/15:** Detailed notes are available in the general channel of Slack for our group.
+We addressed several concerns brought up by members of the team, primarily that the Use case diagram uploaded was for a different assignment. Our current solution at the time of the meeting was revision pending an update by Stephen. All other portions of work reviewed passed review and are ready for delivery when the individual portions are completed. We also planned our next meeting to ensure we are on top of the deliverables that are upcoming.
 
 ### Dates 
 
