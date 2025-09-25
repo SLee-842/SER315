@@ -52,7 +52,6 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ### Summary of Meetings:
 
-
 ### Dates 
 >**Team Meeting Dates:** 
 
@@ -336,6 +335,59 @@ The Racer interacts with the system primarily by registering for races and recei
 ![Racer View](https://github.com/SLee-842/SER315/blob/main/resources/images/RacerView.png)
 |:--:|
 | **Figure 6.** Racer View – Racer receiving a notification of category upgrade.  |
+
+---
+
+## Enhancements on UI Sketches  
+
+In this iteration, the UI sketches were refined to improve clarity and alignment with the activity diagram.  
+- **Owner View:** Highlights race selection and podium input fields to emphasize organizer workflow.  
+- **Racer View:** Enhanced notification design to show both upgrade messages and license status.  
+- **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.  
+
+---
+
+## Design Patterns Chosen  
+
+### 1. Abstract Factory Pattern  
+
+**Implementation:**  
+_Fill Me Out_  
+
+**Optional Illustration Table:**  
+| Factory | Product Example | Notes |  
+|---------|----------------|-------|  
+| Fill Me Out | Fill Me Out | Fill Me Out |  
+
+---
+
+### 2. Singleton Pattern  
+
+**Implementation:**  
+- Applied to `DataRepository` to enforce a single access point for persistent storage.  
+- Guarantees consistent interaction with the database layer while preventing duplicate repository instances.  
+
+**Optional Illustration Table:**  
+
+| Singleton | Responsibility | Benefit |  
+|-----------|----------------|---------|  
+| `DataRepository` | Centralized data access for races, results, and users | Ensures integrity and avoids conflicting writes |  
+
+---
+
+### 3. Builder Pattern  
+
+**Implementation:**  
+_Fill Me Out_  
+
+**Optional Illustration Table:**  
+| Factory | Product Example | Notes |  
+|---------|----------------|-------|  
+| Fill Me Out | Fill Me Out | Fill Me Out |  
+
+---
+
+
 
 ---
 ## Review Section
