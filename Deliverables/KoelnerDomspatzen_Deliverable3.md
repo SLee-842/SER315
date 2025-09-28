@@ -236,10 +236,9 @@ The Architectural design chosen is 'Layered'. We feel that this will be suffice 
 ## Enhancements on UI Sketches  
 
 ### Login / Signup View
-The Login / Signup View provides a simple interface for users to access the Bike Racing Registration System. Figure X shows the Login / Signup View, where a user can either enter existing credentials to log in or create a new account through the signup option. Once authenticated, the system verifies their role (Racer, Organizer, or Administrator) and grants access to the appropriate functionality.
+The Login / Signup View provides a simple interface for users to access the Bike Racing Registration System. Figure 5 shows the Login / Signup View, where a user can either enter existing credentials to log in or create a new account through the signup option. Once authenticated, the system verifies their role (Racer, Organizer, or Administrator) and grants access to the appropriate functionality.
 
-
-![Login / Signup View](https://github.com/SLee-842/SER315/blob/main/resources/images/LoginSighUp.png)
+![Login / Signup View](https://github.com/SLee-842/SER315/blob/main/resources/images/LoginSignUp.png)
 |:--:|
 | **Figure 5.** User prompted to login in or to sign up,|
 ---
