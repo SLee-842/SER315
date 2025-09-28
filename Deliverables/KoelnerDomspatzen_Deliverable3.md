@@ -233,16 +233,23 @@ The Architectural design chosen is 'Layered'. We feel that this will be suffice 
 |:--:|
 | **Figure 4.** Activity Diagram for `Enter Race Results`|
 
-## UI Sketch
+## Enhancements on UI Sketches  
 
-To complement the Activity Diagram, we created simple UI sketches showing how the workflow is experienced by different roles in the system. These sketches illustrate the **Organizer (Owner) view** for recording results and the **Racer view** for receiving notifications after category evaluation.  
+### Login / Signup View
+The Login / Signup View provides a simple interface for users to access the Bike Racing Registration System. Figure X shows the Login / Signup View, where a user can either enter existing credentials to log in or create a new account through the signup option. Once authenticated, the system verifies their role (Racer, Organizer, or Administrator) and grants access to the appropriate functionality.
+
+
+![Login / Signup View](https://github.com/SLee-842/SER315/blob/main/resources/images/LoginSighUp.png)
+|:--:|
+| **Figure 5.** User prompted to login in or to sign up,|
+---
 
 ### Owner View
 The Owner (Organizer) is responsible for recording race results. Figure 3 shows the **Owner View**, where the organizer selects a race, enters a racer’s ID, and records their podium position. Once submitted, the system stores the results and determines whether the race is official. If it is, the upgrade policy service is triggered automatically.  
 
 ![Owner View](https://github.com/SLee-842/SER315/blob/main/resources/images/OwnerView.png)
 |:--:|
-| **Figure 5.** Owner View - Organizer inputting race information and results.|
+| **Figure 6.** Organizer inputting race information and results.|
 ---
 
 ### Racer View
@@ -250,7 +257,7 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ![Racer View](https://github.com/SLee-842/SER315/blob/main/resources/images/RacerView.png)
 |:--:|
-| **Figure 6.** Racer View – Racer receiving a notification of category upgrade.  |
+| **Figure 7.** Racer View – Racer receiving a notification of category upgrade.  |
 
 ---
 
