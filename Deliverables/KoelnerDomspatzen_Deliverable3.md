@@ -280,16 +280,37 @@ _Fill Me Out_
 ### 2. Singleton Pattern  
 
 **Implementation:**  
-- Applied to `DataRepository` to enforce a single access point for persistent storage.  
-- Guarantees consistent interaction with the database layer while preventing duplicate repository instances.  
+- Applied to `RaceRepository` to enforce a single access point for persistent storage of racers, races, registrations, and results.  
+- Ensures all parts of the system (Racer, Organizer, Administrator) interact with the same repository instance.  
+- Prevents data inconsistency that could arise if multiple repository objects existed.  
+- Simplifies synchronization since any update made through one reference is immediately visible system-wide.  
 
 **Optional Illustration Table:**  
 
-| Singleton | Responsibility | Benefit |  
-|-----------|----------------|---------|  
-| `DataRepository` | Centralized data access for races, results, and users | Ensures integrity and avoids conflicting writes |  
+| Singleton        | Responsibility                                     | Benefit                                                                 |  
+|------------------|---------------------------------------------------|-------------------------------------------------------------------------|  
+| `RaceRepository` | Centralized data access for racers, races, results | Guarantees integrity, avoids conflicting writes, and ensures consistency |  
 
----
+**Code Snippet (GitHub Link):**  
+[View RaceRepository Singleton Implementation](https://github.com/your-repo-link-here)  
+
+**Unit Test Output:**  
+```
+=== RaceRepository Singleton Test Harness ===
+
+Test 1: Verify repo1 and repo2 are the same Singleton instance...
+PASS: Both references point to the same instance.
+
+Test 2: Add a racer through repo1 and confirm repo2 can see it...
+PASS: Racer info is consistent across Singleton references.
+
+Test 3: Update racer info using repo2 and confirm repo1 sees the change...
+PASS: Updated racer info is synchronized across Singleton references.
+
+Test 4: Add a race result with repo1 and verify with repo2...
+PASS: Race result consistent across Singleton references.
+```
+
 
 ### 3. Builder Pattern  
 
