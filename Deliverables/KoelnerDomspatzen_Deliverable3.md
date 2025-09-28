@@ -34,7 +34,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:**
 
 >### Stephen Lee
->**Contributions:** 
+>**Contributions:** Updated Review section to include INstructor feedback,
 >
 >**Reflection:**
 
@@ -52,19 +52,11 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ### Summary of Meetings:
 
-### Dates 
->**Team Meeting Dates:** 
-
-### Duration
-
->**Team Meeting Duration:**
-
-
-### Attendees
->**Team Meeting Attendees:** 
-
-### Meeting Minutes
->**Detailed Minutes are available in the Gen channel.**
+>**22 Sep 2025**
+>
+>- **Team Meeting Duration:** 46 minutes
+>- **Team Meeting Attendees:** Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
+>- **Meeting Minutes:** Detailed Minutes are available in the Gen channel.
 
 ## Update to Deliverable 2
 
@@ -316,6 +308,7 @@ _Fill Me Out_
 ---
 ## Review Section
 
+### Delivierable 1 Feedback
 **Instructor Feedback** 
 - The instructor would like to be updated on our progress streamlining our collaboration tools (i.e. GitHub)
 - Including contributions and reflections in the individual feedback section was a positive choice
@@ -340,6 +333,34 @@ _Fill Me Out_
 - Simplified the Use Case diagram
 - Edited Class Diagram layout f/readability and changed from embedded code to png
 - Added missing relationship to RegStatus class
+
+### Delivierable 2 Feedback
+**Instructor Feedback** 
+- More insight into our Current Progress
+- More details regarding Problems Faced
+- Video should give more insight into Design Decisions
+- Individual Reflections are well organized
+- More than one meeting per development cycle is reccomended
+- Include RegStatus Enum multiplicity in the class diagram
+- The class diagram while not incorrect is overly detailed for a high level diagram
+- Add user passwords to class diagram
+- Race Types and Results were represented well in the class diagram
+- The use case diagram was delivered as mermaid code rather than an actual diagram
+- The instructor liked our OCP example
+- Design constraints should include security, reliability, etc.
+- The system architecture is depicted in a way that isn't clear.
+- Rename layers based on functionality and include respective classes
+- Activity diagram seems small and should include error cases
+- Manage Results Gui seems like it could be tedious, recommends adding file upload functionality
+- Did not see changes to Design Constraints
+
+  
+**Changes Made**
+- Replaced mermaid code f/use case diagram with actual use case diagram
+- Updated RegStatus multiplicity in class diagram
+- Added password variable to User class in class diagram
+
+
 
 ## Appendix
 
