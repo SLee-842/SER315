@@ -9,6 +9,7 @@ classDiagram
     +id: UUID
     +name: String
     +email: String
+    -password: String
   }
   class Racer {
     +currentCat: Category
@@ -82,7 +83,7 @@ classDiagram
     CONFIRMED
     CANCELLED
   }
-  Registration --> RegStatus : status
+  Registration "0" --> "1" RegStatus : status
   Racer "1" -- "0..*" Registration : makes
   Race  "1" -- "0..*" Registration : receives
   class Result {
