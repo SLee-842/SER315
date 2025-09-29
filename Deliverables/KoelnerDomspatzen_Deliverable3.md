@@ -194,7 +194,7 @@ We have identified our constraints from two perspectives: **user/problem-side** 
 
 ## Architectural Design
 The Architectural design chosen is 'Layered'. We feel that this will be suffice for the size and depth of this project.
-![Architecture Diagram](https://github.com/SLee-842/SER315/blob/440615649207d9098a555e8fee0ee22be8c3655c/resources/mmd/Architecture%20(revised).mmd)
+![Architecture Diagram](https://github.com/SLee-842/SER315/blob/44032eff76364b81b51ea9a6d44eb6f0ccba4602/resources/images/Architecture%20(revised).png)
 |:--:|
 | **Figure 3.** Layered Architecture for Bike Racing Registration System |
 
