@@ -24,9 +24,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Individual Reflection
 
 >### Brynn Ayers
->**Contributions:** 
+>**Contributions:** I helped schedule the huddle, contributed multiple Racer View GUIs, recorded the video submission for the deliverable, and recorded huddle notes for team communication and updates.
 >
->**Reflection:**
+>**Reflection:** I feel like the group is doing a great job, and we did much better with efficient and fair delegation of this deliverable. I feel good about my contribution, as does the rest of the group, and I feel we’ve hit our stride as a team, and it shows in our work and results.
 
 >### Nathan Jordan
 >**Contributions:** 
