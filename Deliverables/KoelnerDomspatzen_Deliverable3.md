@@ -9,18 +9,19 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
-- Team currently meets the criteria for deliverable 3.
+- Team currently meets the criteria for deliverable 3
 - GUIs are enhanced
-- Design Patterns are in single script format yet are not completley integrated.
+- Design Patterns are in single script format yet are not completley integrated
 
 ### Areas We Excelled
 - Communication
-- Making sure all the deliverable requirement are accouted for
+- Making sure all the deliverable requirement are accounted for
 - Working as a team
 
 ### Areas of Improvement
-- Coordination from previous Deliverable.
+- Coordination from previous Deliverable
 - Directory Structure
+- Improve GitHub utilization skills
 
 ### Problems Faced
 - Different development environments and non-uniformity preventing early integration
@@ -30,6 +31,8 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
   
 ### Changes to Next Iteration
 - Design Patterns should be integrated.
+- Code and design changes based on needs once different parts are integrated
+  
 ### Screencast URL
 [Youtube Link to KoelnerDomspatzen's Deliverable Three]()
 
