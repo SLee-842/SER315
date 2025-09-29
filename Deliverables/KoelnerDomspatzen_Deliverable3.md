@@ -265,10 +265,6 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ---
 
-## Enhancements on UI Sketches  
-
-In this iteration, the UI sketches were refined to improve clarity and alignment with the activity diagram.  
-
 - **Owner View:** Highlights race selection and podium input fields to emphasize organizer workflow. Owner can choose to manually input race results or upload race results via csv.
 
 ![Owner / Manage Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/1.manage_race_results.png)
