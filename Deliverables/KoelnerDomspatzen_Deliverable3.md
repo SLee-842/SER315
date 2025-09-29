@@ -356,6 +356,9 @@ _Fill Me Out_
 |---------|----------------|-------|  
 | Fill Me Out | Fill Me Out | Fill Me Out |  
 
+**Code Snippet (GitHub Link):**
+[View Builder Pattern Implementation](https://github.com/SLee-842/SER315/blob/main/src/Builder_Pattern/user_registration_builder_pattern.java)
+
 ---
 
 
