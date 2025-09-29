@@ -348,10 +348,10 @@ _Fill Me Out_
 
 | Singleton        | Responsibility                                     | Benefit                                                                 |  
 |------------------|---------------------------------------------------|-------------------------------------------------------------------------|  
-| `RaceRepository` | Centralized data access for racers, races, results | Guarantees integrity, avoids conflicting writes, and ensures consistency |  
+| `DataRepository` | Centralized data access for racers, races, results | Guarantees integrity, avoids conflicting writes, and ensures consistency |  
 
 **Code Snippet (GitHub Link):**  
-[View RaceRepository Singleton Implementation](https://github.com/SLee-842/SER315/blob/main/src/SingletonImplementation/DataRepository.java)  
+[View DataRepository Singleton Implementation](https://github.com/SLee-842/SER315/blob/main/src/SingletonImplementation/DataRepository.java)  
 
 **Unit Test Output:**  
 ```
