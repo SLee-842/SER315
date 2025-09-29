@@ -356,7 +356,7 @@ Implementation:
 - Allows for flexibility in creating different user types with different parameters (license, category, credit card info) without having to edit main code. This reduces the chances of breaking the code.
 - The Builder pattern helps enforce business rule for creation of these various user types.
   
-Test: The main method is provided in the java file that validates different type of users being created. 
+**Test Result:** The main method is provided in the java file that validates different type of users being created. 
 
 **Code Snippet (GitHub Link):**
 [View Builder Pattern Implementation](https://github.com/SLee-842/SER315/blob/main/src/Builder_Pattern/user_registration_builder_pattern.java)
