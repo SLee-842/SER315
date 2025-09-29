@@ -311,6 +311,9 @@ In this iteration, the UI sketches were refined to improve clarity and alignment
 |:--:|
 | **Figure 15.** Racer View - Notifications|
 
+![Racer / Racer Registration View]
+|:--:|
+| **Figure 15.** Racer View - Registration|
 ---
 
 ## Design Patterns Chosen  
