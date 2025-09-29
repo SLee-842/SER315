@@ -28,6 +28,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 - Overabundance of GUIs in the deliverable document leading to visual clutter (CAUSING DOCUMENT RESTRUCTURE)
 - Issues implementing the initially chosen design patterns so we pivoted,
 - Mixed levels of experience with GitHub led to some issues
+- Live meeting availability
   
 ### Changes to Next Iteration
 - Design Patterns should be integrated.
