@@ -29,9 +29,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:** I feel like the group is doing a great job, and we did much better with efficient and fair delegation of this deliverable. I feel good about my contribution, as does the rest of the group, and I feel we’ve hit our stride as a team, and it shows in our work and results.
 
 >### Nathan Jordan
->**Contributions:** 
+>**Contributions:** I worked on coding the Composite Pattern, building the base component, leaf, and composite classes so that operations could be carried out consistently across the hierarchy. I also set up the foundation for the Observer Pattern, including the subject and observer interfaces, and added two types of observers to handle different kinds of updates. Beyond coding, I created a new branch in GitHub, uploaded my changes, and opened a pull request so the group could review and merge the work.
 >
->**Reflection:**
+>**Reflection:** This deliverable gave me a stronger understanding of how design patterns fit into larger systems. Implementing the Composite Pattern showed me how to structure hierarchical relationships cleanly, while the Observer Pattern helped me think about how to separate change notifications from core logic. I noticed that it was important to be deliberate about when and how observers are notified to avoid unnecessary complexity. I also gained more practice with Git by using branches and pull requests.
 
 >### Stephen Lee
 >**Contributions:** Updated Review section to include Instructor feedback, replaced mermaid code f/use case diagram with actual use case diagram, updated RegStatus multiplicity in class diagram,
