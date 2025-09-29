@@ -41,9 +41,10 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:**
 
 >### Brandon Navarrete  
->**Contributions:** 
+>**Contributions:** I reorganized the Git directory to hold the src Java files for the pattern implementation and established the format for our design pattern structure. I also implemented the login page for the GUI.
 >
 >**Reflection:**
+>Compared to Deliverable 2, I think our team performed much better this time. Tasks and responsibilities were allocated in advance, which made coordination smoother. Communication was clearer, and as a result the overall workflow felt more efficient. This led to stronger progress and a more polished outcome.
 
 >### Tamara Sopoyeva
 >**Contributions:** 
