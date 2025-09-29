@@ -307,7 +307,7 @@ In this iteration, the UI sketches were refined to improve clarity and alignment
 
 - **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.
 
-![Racer / Racer Notification View]()
+![Racer / Racer Notification View](https://github.com/SLee-842/SER315/blob/f4d6bcd0b364f768dce645e43d8e884ed91e2f33/resources/images/Racer%20View%20Registration%20GUI.png)
 |:--:|
 | **Figure 15.** Racer View - Notifications|
 
