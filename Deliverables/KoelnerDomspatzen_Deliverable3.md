@@ -354,13 +354,9 @@ Implementation:
 - Represent User Registration that consist of different types of user with different attributes.
 - Builder pattern handles complex object construction and ensures the object cannot be modified once created.
 - Allows for flexibility in creating different user types with different parameters (license, category, credit card info) without having to edit main code. This reduces the chances of breaking the code.
-- The Builder pattern helps enforce business rule for creation of these various user types. 
+- The Builder pattern helps enforce business rule for creation of these various user types.
+  
 Test: The main method is provided in the java file that validates different type of users being created. 
-
-**Optional Illustration Table:**  
-| Factory | Product Example | Notes |  
-|---------|----------------|-------|  
-| Fill Me Out | Fill Me Out | Fill Me Out |  
 
 **Code Snippet (GitHub Link):**
 [View Builder Pattern Implementation](https://github.com/SLee-842/SER315/blob/main/src/Builder_Pattern/user_registration_builder_pattern.java)
