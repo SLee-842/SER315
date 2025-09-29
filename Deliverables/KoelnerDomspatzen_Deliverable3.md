@@ -262,7 +262,6 @@ The Owner (Organizer) is responsible for recording race results. Figure 3 shows 
 
 ### Racer View
 The Racer interacts with the system primarily by registering for races and receiving updates. Figure 4 shows the **Racer View**, where the racer receives a notification that their category has been upgraded after achieving five podium finishes in official races. This notification ensures racers are aware of their current category standing and any changes made by the upgrade policy.  
-
 ![Racer View](https://github.com/SLee-842/SER315/blob/main/resources/images/RacerView.png)
 |:--:|
 | **Figure 7.** Racer View – Racer receiving a notification of category upgrade.  |
@@ -279,46 +278,7 @@ The Racer interacts with the system primarily by registering for races and recei
 |:--:|
 | **Figure 9.** Owner View - Upload race results selected|
 
-![Owner / Upload Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/3B.results_entered_success.png)
-|:--:|
-| **Figure 10.** Owner View - Manually edit race results selected|
-
-- **Racer View:** Enhanced notification design to show both upgrade messages and license status.
-
-- **Racer View:** Emphasizes high level view of all race results while providing a detailed view of the racer's own results.
-
-![Racer / Review All Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Review%20Results/all_race_results.png)
-|:--:|
-| **Figure 11.** Racer View - Review all race results|
-
-![Racer / Review Racers Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Review%20Results/my_race_results.png)
-|:--:|
-| **Figure 12.** Racer View - Review only the racer's results|
-
-- **Admin View:** Emphasizes high level view of all race results while providing a detailed view of the racer's own results.
-
-![Admin / User settings View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Admin%20Settings/1.manage_users.png)
-|:--:|
-| **Figure 13.** Admin View - User settings|
-
-![Admin / System settings View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Admin%20Settings/manage_system_setting.png)
-|:--:|
-| **Figure 14.** Admin View - System settings|
-
-- **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.
-
-![Racer / Racer Notification View](https://github.com/SLee-842/SER315/blob/f4d6bcd0b364f768dce645e43d8e884ed91e2f33/resources/images/Racer%20View%20Registration%20GUI.png)
-|:--:|
-| **Figure 15.** Racer View - Notifications|
-
-![Racer / Racer Registration View](https://github.com/SLee-842/SER315/blob/5174bf523401c575b7dc261a55c83ce4d5b1fbc1/resources/images/Racer%20View%20Registration%20GUI.png)
-|:--:|
-| **Figure 16.** Racer View - Registration|
-
-
-![Racer / Racer License View](https://github.com/SLee-842/SER315/blob/332a3e3bfa3918cecf5817e7161e388608308bf0/resources/images/Racer%20View%20License%20GUI.png)
-|:--:|
-| **Figure 17.** Racer View - License|
+[**CLICK HERE FOR MORE VIEWS**](https://github.com/SLee-842/SER315/tree/main/resources/images)
 
 ---
 
