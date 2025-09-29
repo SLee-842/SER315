@@ -316,9 +316,10 @@ In this iteration, the UI sketches were refined to improve clarity and alignment
 | **Figure 16.** Racer View - Registration|
 
 
-![Racer / Racer License View]
+![Racer / Racer License View](https://github.com/SLee-842/SER315/blob/332a3e3bfa3918cecf5817e7161e388608308bf0/resources/images/Racer%20View%20License%20GUI.png)
 |:--:|
 | **Figure 17.** Racer View - License|
+
 ---
 
 ## Design Patterns Chosen  
