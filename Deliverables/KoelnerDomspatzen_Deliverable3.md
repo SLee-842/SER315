@@ -284,15 +284,21 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ## Design Patterns Chosen  
 
-### 1. Abstract Factory Pattern  
+### 1. Composite and Observer Pattern  
 
-**Implementation:**  
-_Fill Me Out_  
+**Composite Implementation:**  
+- Represents a `Race` composed of multiple `Stages`.
+- Provides a uniform way to handle both single stages and full races.
+- Supports operations such as displaying results or details without changin client code.
 
-**Optional Illustration Table:**  
-| Factory | Product Example | Notes |  
-|---------|----------------|-------|  
-| Fill Me Out | Fill Me Out | Fill Me Out |  
+**Test Result:**  Race with multiple stages printed all stage details in one call, verifying the composite worked correctly.
+
+**Observer Implementation:**
+- Implemented on the Race class to notify observers when race data changes.
+- Decouples race logic from display and notification functionality.
+- Allows multiple observers of different types to subscribe and unsubscribe dynamically.
+
+**Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.
 
 ---
 
