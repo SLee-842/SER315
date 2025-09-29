@@ -15,6 +15,8 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ### Areas We Excelled
 - Communication
+- Making sure all the deliverable requirement are accouted for
+- Working as a team
 
 ### Areas of Improvement
 - Coordination from previous Deliverable.
