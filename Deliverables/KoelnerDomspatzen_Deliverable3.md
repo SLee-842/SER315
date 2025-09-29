@@ -9,10 +9,14 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
+- Team is currently finished with deliverable 3.
 
 ### Areas We Excelled
+- Communication
 
 ### Areas of Improvement
+- Coordination from previous Devliverable.
+- Directory Structure
 
 ### Problems Faced
 
