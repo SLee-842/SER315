@@ -306,6 +306,9 @@ The Racer interacts with the system primarily by registering for races and recei
 
 **Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.
 
+**Code Snippet (GitHub Link):**
+[View Composite and Observer Implementation](https://github.com/SLee-842/SER315/tree/main/src/Deliverable3_Code/Observer_Composite/src/brp)
+
 ---
 
 ### 2. Singleton Pattern  
