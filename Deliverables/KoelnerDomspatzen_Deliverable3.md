@@ -57,9 +57,10 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >Compared to Deliverable 2, I think our team performed much better this time. Tasks and responsibilities were allocated in advance, which made coordination smoother. Communication was clearer, and as a result the overall workflow felt more efficient. This led to stronger progress and a more polished outcome.
 
 >### Tamara Sopoyeva
->**Contributions:** 
+>**Contributions:** I've create GUI for manage_race as it relates to the organizers function. Also I provided builder pattern design for User Registration. Looked over other team members work and provided feedback. I participated in discussion with the team members to make sure we have same understanding of the work completed. 
 >
 >**Reflection:**
+>This deliverable is a good demonstration on challenges that can be faced in real life project scenario. Working on different part of the project, even with good communication can be confusing. For me the hard part right now is to see how it all going to come together and I just have to trust the project. I think we have great team that is communicating well and contributing as needed. This make a big different in having confidence in the project. 
 
 ## Meeting Overview
 
