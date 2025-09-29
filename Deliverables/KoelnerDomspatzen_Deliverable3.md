@@ -305,7 +305,11 @@ In this iteration, the UI sketches were refined to improve clarity and alignment
 |:--:|
 | **Figure 14.** Admin View - System settings|
 
-- **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.  
+- **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.
+
+![Racer / Racer Notification View]()
+|:--:|
+| **Figure 15.** Racer View - Notifications|
 
 ---
 
