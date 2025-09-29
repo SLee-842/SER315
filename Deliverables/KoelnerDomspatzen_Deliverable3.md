@@ -419,7 +419,8 @@ _Fill Me Out_
 - Added password variable to User class in class diagram
 - Redesigned Manage Results Gui to include file upload funtionality
 - Added security/reliability requirement to design constraints 
-
+- Replaced Architecture Diagram with revised version
+- Added more details to the problems faced, design decisions, and current progress
 
 
 ## Appendix
