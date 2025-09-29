@@ -350,10 +350,10 @@ PASS: Race result consistent across Singleton references.
 
 **Implementation:**  
 Implementation:
-- Represent User Registration that consist of different types of user with different attributes
+- Represent User Registration that consist of different types of user with different attributes.
 - Builder pattern handles complex object construction and ensures the object cannot be modified once created.
-- Allows for flexibility in creating different user types with different parameters (license, category, credit card info) without having to edit main code with reduces the chances of breaking the code.
-- The Builder pattern help enforce business rule for creation of these various user types. 
+- Allows for flexibility in creating different user types with different parameters (license, category, credit card info) without having to edit main code. This reduces the chances of breaking the code.
+- The Builder pattern helps enforce business rule for creation of these various user types. 
 Test: The main method is provided in the java file that validates different type of users being created. 
 
 **Optional Illustration Table:**  
