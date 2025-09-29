@@ -11,7 +11,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ### Current Progress
 - Team currently meets the criteria for deliverable 3.
 - GUIs are enhanced
-- Design Patterns are in 'CLI' format yet are not completley integrated.
+- Design Patterns are in single script format yet are not completley integrated.
 
 ### Areas We Excelled
 - Communication
