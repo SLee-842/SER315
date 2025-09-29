@@ -263,8 +263,43 @@ The Racer interacts with the system primarily by registering for races and recei
 ## Enhancements on UI Sketches  
 
 In this iteration, the UI sketches were refined to improve clarity and alignment with the activity diagram.  
-- **Owner View:** Highlights race selection and podium input fields to emphasize organizer workflow.  
-- **Racer View:** Enhanced notification design to show both upgrade messages and license status.  
+
+- **Owner View:** Highlights race selection and podium input fields to emphasize organizer workflow. Owner can choose to manually input race results or upload race results via csv.
+
+![Owner / Manage Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/1.manage_race_results.png)
+|:--:|
+| **Figure 8.** Owner View - Owner can manlually edit or upload race results|
+
+![Owner / Upload Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/2A.upload_results.png)
+|:--:|
+| **Figure 9.** Owner View - Upload race results selected|
+
+![Owner / Upload Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/3B.results_entered_success.png)
+|:--:|
+| **Figure 10.** Owner View - Manually edit race results selected|
+
+- **Racer View:** Enhanced notification design to show both upgrade messages and license status.
+
+- **Racer View:** Emphasizes high level view of all race results while providing a detailed view of the racer's own results.
+
+![Racer / Review All Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Review%20Results/all_race_results.png)
+|:--:|
+| **Figure 11.** Racer View - Review all race results|
+
+![Racer / Review Racers Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Review%20Results/my_race_results.png)
+|:--:|
+| **Figure 12.** Racer View - Review only the racer's results|
+
+- **Admin View:** Emphasizes high level view of all race results while providing a detailed view of the racer's own results.
+
+![Admin / User settings View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Admin%20Settings/1.manage_users.png)
+|:--:|
+| **Figure 13.** Admin View - User settings|
+
+![Admin / System settings View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Admin%20Settings/manage_system_setting.png)
+|:--:|
+| **Figure 14.** Admin View - System settings|
+
 - **Consistency:** Both sketches share a unified layout style for readability and alignment with layered architecture.  
 
 ---
