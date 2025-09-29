@@ -15,7 +15,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 - Communication
 
 ### Areas of Improvement
-- Coordination from previous Devliverable.
+- Coordination from previous Deliverable.
 - Directory Structure
 
 ### Problems Faced
