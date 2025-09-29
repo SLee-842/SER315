@@ -34,7 +34,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:**
 
 >### Stephen Lee
->**Contributions:** Updated Review section to include INstructor feedback,
+>**Contributions:** Updated Review section to include Instructor feedback, replaced mermaid code f/use case diagram with actual use case diagram, updated RegStatus multiplicity in class diagram,
+>added password variable to User class in class diagram, redesigned Manage Results Gui to include file upload funtionality, designed Review Results Gui and Admin Settings Gui,
+>added security/reliability requirement to design constraints 
 >
 >**Reflection:**
 
@@ -152,8 +154,12 @@ We have identified our constraints from two perspectives: **user/problem-side** 
 
 - **Race History Persistence** *(Requirements Document, p.2)*  
   The system must keep a permanent record of races, results, and reviews.  
-  Racer history must remain consistent across sessions (no data loss).  
+  Racer history must remain consistent across sessions (no data loss).
 
+- **System Security and Reliability**
+  Although system security is not explicitly a listed as a requirement, our system stores user information and processes license purchases, thus necessitating the protection of system and user records.
+  Likewise admin's will have the ability to edit user accounts and system settings. It's imperative that we keep these privledges gaurded from user's not explicitly designated as admins.
+  For these reasons, users must be required provide a validated username and password before interacting with the system.
 ---
 
 #### Technical / Stack-Side Constraints  
@@ -421,6 +427,8 @@ _Fill Me Out_
 - Replaced mermaid code f/use case diagram with actual use case diagram
 - Updated RegStatus multiplicity in class diagram
 - Added password variable to User class in class diagram
+- Redesigned Manage Results Gui to include file upload funtionality
+- Added security/reliability requirement to design constraints 
 
 
 
