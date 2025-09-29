@@ -1,0 +1,45 @@
+---
+config:
+  layout: elk
+---
+flowchart TB
+
+ subgraph PresentationLayer["Presentation Layer (Closed)"]
+        Racer(["Racer actor"])
+        Organizer(["Organizer actor"])
+        Admin(["Administrator actor"])
+        UIController("UIController")
+  end
+ subgraph BusinessLayer["Business Layer (Open)"]
+        License("License")
+        Result("Result")
+        UpgradePolicy("UpgradePolicy")
+        Review("Review")
+        Race("Race")
+        Registration("Registration")
+          end
+ subgraph PersistenceLayer["Persistence Layer (Closed)"]
+        AccountManager("AccountManager")
+        NotificationService("NotificationService")
+        PaymentProcessor("PaymentProcessor")
+  end
+ subgraph DatabaseLayer["Database Layer (Closed)"]
+        Database[("Database: Users, Races, Licenses, Results, Reviews")]
+  end
+ subgraph SystemArchitecture["SystemArchitecture"]
+        PresentationLayer
+        BusinessLayer
+        PersistenceLayer
+        DatabaseLayer
+  end
+    Racer --> UIController
+    Organizer --> UIController
+    Admin --> UIController
+    UIController --> License & Result & Race & Registration & Review & AccountManager
+    Result --> UpgradePolicy --> NotificationService
+    License --> AccountManager
+    Race --> Registration --> PaymentProcessor
+    Race --> Review --> NotificationService
+    AccountManager --> Database
+    NotificationService --> Database
+    PaymentProcessor --> Database
