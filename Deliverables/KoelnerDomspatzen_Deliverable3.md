@@ -52,8 +52,6 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ## Meeting Overview
 
-### Summary of Meetings:
-
 >**22 Sep 2025**
 >
 >- **Team Meeting Duration:** 46 minutes
