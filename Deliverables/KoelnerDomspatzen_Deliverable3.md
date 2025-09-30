@@ -76,6 +76,12 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >- **Team Meeting Attendees:** Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
 >- **Meeting Minutes:** Detailed Minutes are available in the Gen channel.
 
+>**29 Sep 2025**
+>
+>- **Team Meeting Duration: 1 hour and 44 minutes
+>- **Team Meeting Attendees: Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
+>- **Meeting Minutes: Detailed Minutes are available in the Gen channel.
+
 ## Update to Deliverable 2
 
 ### Class Diagram
