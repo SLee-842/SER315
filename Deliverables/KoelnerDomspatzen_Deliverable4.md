@@ -451,6 +451,29 @@ Implementation:
 - Replaced Architecture Diagram with revised version
 - Added more details to the problems faced, design decisions, and current progress
 
+### Delivierable 3 Feedback
+**Instructor Feedback** 
+- The use case diagram resambles a flow chart
+- The use case diagram could be depicted at higher level, showing only major function groups
+- The activity diagram works but seems too simple
+
+
+**Peer Feedback** 
+- The class diagram is hard to read
+- Typo in Figure 8 description
+- More comments should be made throughout our source code and each class file should include a description
+- The signleton pattern was a good choice for the repository, but should include proper safety handling to ensure data integrity in a threaded environment
+- User classes should be created without the builder pattern as the pattern may be too complex for our desired application
+- RaceType classes may be better suited as an enum as race type seems to be more of a lable than a functioning class
+- Document was well organized
+- Design patterns were clearly showcased in Github but not included in the deliverable document per the grading rubric
+- Activity diagram is lacking error cases
+
+  
+**Changes Made**
+- 
+
+
 
 ## Appendix
 
