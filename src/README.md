@@ -32,6 +32,5 @@ From the project root:
 ```bash
 # Compile
 javac src/Main.java src/Composite/*.java src/Singleton/*.java -d out
-
-# Run
-java -cp out Main
+```
+---
