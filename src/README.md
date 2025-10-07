@@ -2,6 +2,10 @@
 
 This Java project demonstrates the **Composite** and **Singleton** design patterns using a Mario Kart–themed championship simulation.
 
+The implementation follows the flow of an **Activity Diagram** that models how an organizer enters race results, the system stores them, verifies the race status, evaluates racer promotions, and sends notifications.  
+Each step in the console output corresponds directly to the actions and decisions shown in the activity diagram.
+
+
 ---
 
 ## Overview
