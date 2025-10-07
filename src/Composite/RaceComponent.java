@@ -1,4 +1,4 @@
-package brp.domain;
+package Composite;
 
 public interface RaceComponent {
 	String getName();

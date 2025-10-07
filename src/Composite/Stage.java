@@ -1,4 +1,4 @@
-package brp.domain;
+package Composite;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ public class Stage implements RaceComponent {
     }
     @Override public String getName(){ return name; }
     @Override public void printDetails(String indent){
-        System.out.println(indent + "• Stage: " + name);
+        System.out.println(indent + "* Stage: " + name);
         for (RaceComponent c : children) c.printDetails(indent + "  ");
     }
 }

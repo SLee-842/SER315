@@ -1,4 +1,4 @@
-package brp.domain;
+package Composite;
 import java.time.LocalDate;
 import java.util.*;
 public class Race implements RaceComponent {
@@ -15,8 +15,7 @@ public class Race implements RaceComponent {
     public LocalDate getDate(){ return date; }
     @Override public String getName(){ return name; }
     @Override public void printDetails(String indent){
-        System.out.println(indent + "◦ Race: " + name + " (" + (official?"Official":"Unofficial") + ") " + date);
+        System.out.println(indent + "* Race: " + name + " (" + (official?"Official":"Unofficial") + ") " + date);
         for (RaceComponent s : stages) s.printDetails(indent + "  ");
     }
 }
-

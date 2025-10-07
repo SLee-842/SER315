@@ -1,5 +1,5 @@
 
-package product; // ATTENTION TEAM: THIS PACKAGE WILL CHANGED DEPENDING ON *YOUR* DIRECTORY //
+package Singleton; // ATTENTION TEAM: THIS PACKAGE WILL CHANGED DEPENDING ON *YOUR* DIRECTORY //
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ public class DataRepository {
    // The single, shared instance of DataRepository
    private static DataRepository instance;
 
-   // In-memory storage maps for the race system
+   // In memory storage maps for the race system
    private Map<String, String> racers = new HashMap<>();
    private Map<String, String> races = new HashMap<>();
    private Map<String, String> registrations = new HashMap<>();
@@ -33,9 +33,6 @@ public class DataRepository {
       }
       return instance;
    }
-
-
-
 
 
    // ########################## //
