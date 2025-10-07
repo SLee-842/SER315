@@ -332,7 +332,7 @@ The Racer interacts with the system primarily by registering for races and recei
 - Prevents data inconsistency that could arise if multiple repository objects existed.  
 - Simplifies synchronization since any update made through one reference is immediately visible system-wide.  
 
-**Optional Illustration Table:**  
+* Illustration Table:**  
 
 | Singleton        | Responsibility                                     | Benefit                                                                 |  
 |------------------|---------------------------------------------------|-------------------------------------------------------------------------|  
@@ -340,6 +340,21 @@ The Racer interacts with the system primarily by registering for races and recei
 
 **Code Snippet (GitHub Link):**  
 [View DataRepository Singleton Implementation](https://github.com/SLee-842/SER315/blob/main/src/SingletonImplementation/DataRepository.java)  
+
+
+**Pattern Class Diagram:**
+```mermaid
+classDiagram
+    class DataRepository {
+        - static instance : DataRepository
+        - DataRepository()
+        + static getInstance() : DataRepository
+    }
+
+      note for DataRepository "Singleton Pattern:Only one shared instance exists.Private constructor prevents direct instantiation.getInstance() provides global access."
+```
+
+
 
 **Unit Test Output:**  
 ```
