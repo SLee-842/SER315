@@ -1,0 +1,8 @@
+classDiagram
+    class DataRepository {
+        - static instance : DataRepository
+        - DataRepository()
+        + static getInstance() : DataRepository
+    }
+
+    note for DataRepository "Singleton Pattern:\nOnly one shared instance exists.\nPrivate constructor prevents direct instantiation.\ngetInstance() provides global access."
