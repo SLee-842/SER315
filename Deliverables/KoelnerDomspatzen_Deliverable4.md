@@ -35,52 +35,46 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 - Code and design changes based on needs once different parts are integrated
   
 ### Screencast URL
-[Youtube Link to KoelnerDomspatzen's Deliverable Three](https://youtu.be/oaT5L9eQjGQ)
+[Youtube Link to KoelnerDomspatzen's Deliverable four]()
 
 ## Individual Reflection
 
 >### Brynn Ayers
->**Contributions:** I helped schedule the huddle, contributed multiple Racer View GUIs, recorded the video submission for the deliverable, and recorded huddle notes for team communication and updates.
+>**Contributions:** 
 >
->**Reflection:** I feel like the group is doing a great job, and we did much better with efficient and fair delegation of this deliverable. I feel good about my contribution, as does the rest of the group, and I feel we’ve hit our stride as a team, and it shows in our work and results.
+>**Reflection:** 
 
 >### Nathan Jordan
->**Contributions:** I worked on coding the Composite Pattern, building the base component, leaf, and composite classes so that operations could be carried out consistently across the hierarchy. I also set up the foundation for the Observer Pattern, including the subject and observer interfaces, and added two types of observers to handle different kinds of updates. Beyond coding, I created a new branch in GitHub, uploaded my changes, and opened a pull request so the group could review and merge the work.
+>**Contributions:** 
 >
->**Reflection:** This deliverable gave me a stronger understanding of how design patterns fit into larger systems. Implementing the Composite Pattern showed me how to structure hierarchical relationships cleanly, while the Observer Pattern helped me think about how to separate change notifications from core logic. I noticed that it was important to be deliberate about when and how observers are notified to avoid unnecessary complexity. I also gained more practice with Git by using branches and pull requests.
+>**Reflection:** 
 
 >### Stephen Lee
->**Contributions:** Updated Review section to include Instructor feedback, replaced mermaid code f/use case diagram with actual use case diagram, updated RegStatus multiplicity in class diagram,
->added password variable to User class in class diagram, redesigned Manage Results Gui to include file upload funtionality, designed Review Results Gui and Admin Settings Gui,
->added security/reliability requirement to design constraints 
+>**Contributions:** 
 >
 >**Reflection:**
 
 >### Brandon Navarrete  
->**Contributions:** I reorganized the Git directory to hold the src Java files for the pattern implementation and established the format for our design pattern structure. I also implemented the login page for the GUI.
+>**Contributions:** 
 >
 >**Reflection:**
->Compared to Deliverable 2, I think our team performed much better this time. Tasks and responsibilities were allocated in advance, which made coordination smoother. Communication was clearer, and as a result the overall workflow felt more efficient. This led to stronger progress and a more polished outcome.
 
 >### Tamara Sopoyeva
->**Contributions:** I've create GUI for manage_race as it relates to the organizers function. Also I provided builder pattern design for User Registration. Looked over other team members work and provided feedback. I participated in discussion with the team members to make sure we have same understanding of the work completed. 
+>**Contributions:**
 >
 >**Reflection:**
->This deliverable is a good demonstration on challenges that can be faced in real life project scenario. Working on different part of the project, even with good communication can be confusing. For me the hard part right now is to see how it all going to come together and I just have to trust the project. I think we have great team that is communicating well and contributing as needed. This make a big different in having confidence in the project. 
+
+---
 
 ## Meeting Overview
 
->**22 Sep 2025**
+>**6 Oct 2025**
 >
->- **Team Meeting Duration:** 46 minutes
->- **Team Meeting Attendees:** Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
+>- **Team Meeting Duration:** 23 minutes
+>- **Team Meeting Attendees:** Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva, Stephen Lee
 >- **Meeting Minutes:** Detailed Minutes are available in the Gen channel.
 
->**29 Sep 2025**
->
->- **Team Meeting Duration: 1 hour and 44 minutes
->- **Team Meeting Attendees: Brynn Ayers, Nathan Jordan, Brandon Navarrete, Tamara Sopoyeva
->- **Meeting Minutes: Detailed Minutes are available in the Gen channel.
+---
 
 ## Update to Deliverable 2
 
@@ -127,7 +121,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 ## Use Case Diagram
 
-![Use Case Diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/Use%20Case%20Diagram.png)
+![Use Case Diagram](https://github.com/SLee-842/SER315/blob/main/resources/images/Use%20Case%20Diagram_Deliverable%204.png)
 |:--:|
 | **Figure 2.** Use Case Diagram f/Bike Racing Registration System |
 
@@ -374,24 +368,6 @@ PASS: Race result consistent across Singleton references.
 ```
 
 
-### 3. Builder Pattern  
-
-**Implementation:**  
-Implementation:
-- Represent User Registration that consist of different types of user with different attributes.
-- Builder pattern handles complex object construction and ensures the object cannot be modified once created.
-- Allows for flexibility in creating different user types with different parameters (license, category, credit card info) without having to edit main code. This reduces the chances of breaking the code.
-- The Builder pattern helps enforce business rule for creation of these various user types.
-  
-**Test Result:** The main method is provided in the java file that validates different type of users being created. 
-
-**Code Snippet (GitHub Link):**
-[View Builder Pattern Implementation](https://github.com/SLee-842/SER315/blob/main/src/Builder_Pattern/user_registration_builder_pattern.java)
-
----
-
-
-
 ---
 ## Review Section
 
@@ -453,7 +429,7 @@ Implementation:
 
 ### Delivierable 3 Feedback
 **Instructor Feedback** 
-- The use case diagram resambles a flow chart
+- The use case diagram resembles a flow chart
 - The use case diagram could be depicted at higher level, showing only major function groups
 - The activity diagram works but seems too simple
 
@@ -471,7 +447,9 @@ Implementation:
 
   
 **Changes Made**
-- 
+- Typo in Figure 8 description corrected
+- Simplified use case diagram per instructor feedback
+- Builder pattern was dropped after considering user feedback
 
 
 
