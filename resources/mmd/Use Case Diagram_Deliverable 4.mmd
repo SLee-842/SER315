@@ -1,0 +1,20 @@
+---
+config:
+  layout: elk
+---
+flowchart LR
+ subgraph RMS["Race Managment System"]
+    direction LR
+        createRace(["create race"])
+        manageRaces(["manage races"])
+        raceSignUp(["sign up for a race"])
+        purchaseLicense(["purchase license"])
+        reviewRaces(["review races"])
+        manageUsers(["manage user accounts"])
+        manageLicenses(["manage licenses"])
+        manageSystem(["manage system setting"])
+        addCreditCard(["add credit card info"])
+  end
+    Organizers["Organizers"] --- createRace & manageRaces
+    Racers["Racers"] --- raceSignUp & purchaseLicense & reviewRaces
+    Administrators["Administrators"] --- manageUsers & manageLicenses & manageSystem
