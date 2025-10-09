@@ -291,7 +291,7 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ![Owner / Manage Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/1.manage_race_results.png)
 |:--:|
-| **Figure 8.** Owner View - Owner can manlually edit or upload race results|
+| **Figure 8.** Owner View - Owner can manually edit or upload race results|
 
 ![Owner / Upload Results View](https://github.com/SLee-842/SER315/blob/main/resources/images/GUI_Manage%20Race%20Results/2A.upload_results.png)
 |:--:|
