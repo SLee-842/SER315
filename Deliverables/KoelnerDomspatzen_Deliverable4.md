@@ -302,15 +302,67 @@ The Racer interacts with the system primarily by registering for races and recei
 
 **Test Result:**  Race with multiple stages printed all stage details in one call, verifying the composite worked correctly.
 
-**Observer Implementation:**
+~~**Observer Implementation:**
 - Implemented on the Race class to notify observers when race data changes.
 - Decouples race logic from display and notification functionality.
 - Allows multiple observers of different types to subscribe and unsubscribe dynamically.
 
-**Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.
+**Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.~~
 
 **Code Snippet (GitHub Link):**
-[View Composite and Observer Implementation](https://github.com/SLee-842/SER315/tree/main/src/Deliverable3_Code/Observer_Composite/src/brp)
+[View Composite](NEED NEW LINK )
+
+
+**Pattern Class Diagram:**
+```mermaid
+classDiagram
+direction TB
+
+class RaceComponent {
+  <<interface>>
+  +getName(): String
+  +printDetails(indent: String): void
+}
+
+class Race {
+  <<composite>>
+  -name: String
+  -date: LocalDate
+  -official: boolean
+  -stages: List<RaceComponent>
+  +add(stage: RaceComponent): Race
+  +getStages(): List<RaceComponent>
+  +isOfficial(): boolean
+  +getDate(): LocalDate
+  +getName(): String
+  +printDetails(indent: String): void
+}
+
+class Stage {
+  <<composite>>
+  -name: String
+  -children: List<RaceComponent>
+  +add(c: RaceComponent): Stage
+  +remove(c: RaceComponent): void
+  +getChildren(): List<RaceComponent>
+  +getName(): String
+  +printDetails(indent: String): void
+}
+
+class RaceType {
+  <<leaf>>
+  -name: String
+  +getName(): String
+  +printDetails(indent: String): void
+}
+
+RaceComponent <|.. Race
+RaceComponent <|.. Stage
+RaceComponent <|.. RaceType
+
+Race *-- "0..*" RaceComponent : contains
+Stage *-- "0..*" RaceComponent : contains
+```
 
 ---
 
