@@ -55,9 +55,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:**
 
 >### Brandon Navarrete  
->**Contributions:** 
+>**Contributions:** Built final CLI Demonstration for `Activity Diagram` using team designated Singelton and Composite Pattern. Also updated document with Singleton Design Class.
 >
->**Reflection:**
+
 
 >### Tamara Sopoyeva
 >**Contributions:**
