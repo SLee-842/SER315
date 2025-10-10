@@ -40,9 +40,8 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >**Reflection:** 
 
 >### Nathan Jordan
->**Contributions:** 
+>**Contributions:** I created the Composite pattern class diagram that aligned to our code: RaceComponent (interface), Race/Stage (composites), and RaceType (leaf).
 >
->**Reflection:** 
 
 >### Stephen Lee
 >**Contributions:** Uploaded instructor/peer feedback, simplified use case diagram, updated activity diagram, added URL for class diagram
@@ -293,7 +292,7 @@ The Racer interacts with the system primarily by registering for races and recei
 
 ## Design Patterns Chosen  
 
-### 1. Composite and Observer Pattern  
+### 1. Composite ~~and~~ ~~Observer~~ Pattern  
 
 **Composite Implementation:**  
 - Represents a `Race` composed of multiple `Stages`.
@@ -302,12 +301,12 @@ The Racer interacts with the system primarily by registering for races and recei
 
 **Test Result:**  Race with multiple stages printed all stage details in one call, verifying the composite worked correctly.
 
-~~**Observer Implementation:**
-- Implemented on the Race class to notify observers when race data changes.
-- Decouples race logic from display and notification functionality.
-- Allows multiple observers of different types to subscribe and unsubscribe dynamically.
+~~**Observer Implementation:**~~
+~~- Implemented on the Race class to notify observers when race data changes.~~
+~~- Decouples race logic from display and notification functionality.~~
+~~- Allows multiple observers of different types to subscribe and unsubscribe dynamically.~~
 
-**Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.~~
+~~**Test Result:** Observers received updates when attached, and unsubscribed observers correctly stopped receiving notifications.~~
 
 **Code Snippet (GitHub Link):**
 [View Composite](https://github.com/SLee-842/SER315/tree/main/src/Composite)
