@@ -9,30 +9,25 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Team Reflection
 
 ### Current Progress
-- Team currently meets the criteria for deliverable 3
-- GUIs are enhanced
-- Design Patterns are in single script format yet are not completley integrated
+- Team currently meets the criteria for deliverable 4
+- CLI demo for `Activity Diagram` using team designated Singelton and Composite Pattern exist and compiles.
+- Design Patterns have respective class diagrams
 
 ### Areas We Excelled
 - Communication
+- Maintaining progress above deadlines.
 - Making sure all the deliverable requirement are accounted for
-- Working as a team
 
 ### Areas of Improvement
 - Coordination from previous Deliverable
-- Directory Structure
-- Improve GitHub utilization skills
+
 
 ### Problems Faced
-- Different development environments and non-uniformity preventing early integration
-- Overabundance of GUIs in the deliverable document leading to visual clutter (CAUSING DOCUMENT RESTRUCTURE)
-- Issues implementing the initially chosen design patterns so we pivoted,
-- Mixed levels of experience with GitHub led to some issues
-
+- No *Signifcant* problems noticed in Deliverable 4
+- Minor adjustment to src directory structure (Tidying Up)
   
 ### Changes to Next Iteration
-- Design Patterns should be integrated.
-- Code and design changes based on needs once different parts are integrated
+<span style="color: green;">**NOTE: Project Complete as of 10/10/2025**</span>
   
 ### Screencast URL
 [Youtube Link to KoelnerDomspatzen's Deliverable four]()
