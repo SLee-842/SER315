@@ -381,7 +381,7 @@ Stage *-- "0..*" RaceComponent : contains
 | `DataRepository` | Centralized data access for racers, races, results | Guarantees integrity, avoids conflicting writes, and ensures consistency |  
 
 **Code Snippet (GitHub Link):**  
-[View DataRepository Singleton Implementation](https://github.com/SLee-842/SER315/blob/main/src/SingletonImplementation/DataRepository.java)  
+[View DataRepository Singleton Implementation](https://github.com/SLee-842/SER315/blob/main/src/Singleton/DataRepository.java)  
 
 
 **Pattern Class Diagram:**
