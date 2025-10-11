@@ -37,7 +37,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 >### Brynn Ayers
 >**Contributions:** Created the team meeting notes, recorded the video summary, and provided feedback and input into the final deliverable design.
 >
->**Reflection:** 
+>**Reflection:** I really found the whole process of this team deliverable to be very informative and helpful in developing my real world skills in a way that other projects haven’t managed to. Getting to work with a collaborative, well-informed, and hardworking team has shown me ways I can grow professionally and helped me learn industry skills and platforms I wasn’t well-versed in before. This really felt like a synthesis of the concepts I’ve been learning individually and was rewarding to see come together.
 
 >### Nathan Jordan
 >**Contributions:** I created the Composite pattern class diagram that aligned to our code: RaceComponent (interface), Race/Stage (composites), and RaceType (leaf).
