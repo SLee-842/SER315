@@ -35,7 +35,7 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 ## Individual Reflection
 
 >### Brynn Ayers
->**Contributions:** 
+>**Contributions:** Created the team meeting notes, recorded the video summary, and provided feedback and input into the final deliverable design.
 >
 >**Reflection:** 
 
