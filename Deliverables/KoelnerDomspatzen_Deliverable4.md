@@ -54,9 +54,9 @@ Brynn Ayers, Nathan Jordan, Stephen Lee, Brandon Navarrete, Tamara Sopoyeva
 
 
 >### Tamara Sopoyeva
->**Contributions:**
+>**Contributions:** Reviewed feedback from the previous deliverable and discussed with the team. Edited the final deliverable and prepared for submission.
 >
->**Reflection:**
+>**Reflection:** It was interesting to see how different parts of the project could be put together and (almost) functioning system. At the start of the project, it was hard for me to envision the final product, but with the tools we learned and team collaboration, it all came together and was an educational experience. I can see the usefulness of UML and design patterns, and this project made me feel like all the information I learned so far from my previous classes is finally coming together to create something real that can be used in the real world. Also, I really appreciate having good and responsive team members who are focused on solving the problem and working together. 
 
 ---
 
